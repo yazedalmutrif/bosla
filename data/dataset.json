@@ -1,0 +1,3410 @@
+{
+  "meta": {
+    "title": "Saudi job-search reference dataset",
+    "compiledOn": "2026-09-27",
+    "currency": "SAR",
+    "salaryPeriod": "month",
+    "salaryDisclaimer": {
+      "ar": "أرقام تقديرية للتفاوض، مبنية على أبحاث سوق نُشرت في أغسطس-سبتمبر 2026. ليست عروضاً معلنة من الشركات المذكورة.",
+      "en": "Estimates for negotiation, compiled from published market data in Aug-Sep 2026 research. Not offers from the companies."
+    },
+    "sources": [
+      {
+        "id": "S1",
+        "title": "Job-market research: mechanical & aerospace (published job map, 2026-08-31)",
+        "date": "2026-08-31",
+        "kind": "author-research"
+      },
+      {
+        "id": "S2",
+        "title": "Job-market research: networking & cybersecurity (published job map, 2026-09-05)",
+        "date": "2026-09-05",
+        "kind": "author-research"
+      },
+      {
+        "id": "S3",
+        "title": "Job-market research: food production & manufacturing (published job map, 2026-09-06)",
+        "date": "2026-09-06",
+        "kind": "author-research"
+      },
+      {
+        "id": "S4",
+        "title": "Job-market research: software, AI & enterprise IT (published job map, 2026-09-04)",
+        "date": "2026-09-04",
+        "kind": "author-research"
+      },
+      {
+        "id": "S5",
+        "title": "Salary reference notes: fresh computing graduates in Saudi Arabia, 2026 estimates",
+        "date": "2026-09-04",
+        "kind": "author-research"
+      },
+      {
+        "id": "S6",
+        "title": "Graduate programmes reference notes",
+        "date": "2026-09-04",
+        "kind": "author-research"
+      },
+      {
+        "id": "S7",
+        "title": "Job platforms reference notes",
+        "date": "2026-09-04",
+        "kind": "author-research"
+      },
+      {
+        "id": "S8",
+        "title": "Job Map Builder method: recurring CV fixes across maps",
+        "date": "2026-09-06",
+        "kind": "author-research"
+      },
+      {
+        "id": "S9",
+        "title": "HRDF official Tamheer programme page (read 2026-09-27)",
+        "date": "2026-09-27",
+        "kind": "official-page"
+      }
+    ]
+  },
+  "fields": [
+    {
+      "id": "software-ai",
+      "ar": "البرمجيات والذكاء الاصطناعي",
+      "en": "Software & AI"
+    },
+    {
+      "id": "it-support-enterprise",
+      "ar": "الدعم التقني وأنظمة المؤسسات",
+      "en": "IT support & enterprise systems"
+    },
+    {
+      "id": "networking-security",
+      "ar": "الشبكات والأمن السيبراني",
+      "en": "Networking & cybersecurity"
+    },
+    {
+      "id": "mechanical-aerospace",
+      "ar": "الميكانيكا والطيران",
+      "en": "Mechanical & aerospace"
+    },
+    {
+      "id": "energy-industrial",
+      "ar": "الطاقة والصناعة",
+      "en": "Energy & industrial"
+    },
+    {
+      "id": "food-manufacturing",
+      "ar": "الأغذية والتصنيع",
+      "en": "Food & manufacturing"
+    },
+    {
+      "id": "sales-business",
+      "ar": "المبيعات والأعمال",
+      "en": "Sales & business"
+    },
+    {
+      "id": "general",
+      "ar": "عام",
+      "en": "General"
+    }
+  ],
+  "sectors": [
+    {
+      "id": "aviation-defense",
+      "ar": "الطيران والدفاع",
+      "en": "Aviation & defence"
+    },
+    {
+      "id": "energy-industrial",
+      "ar": "الطاقة والصناعة",
+      "en": "Energy & industrial"
+    },
+    {
+      "id": "food-manufacturing",
+      "ar": "الأغذية والتصنيع",
+      "en": "Food & manufacturing"
+    },
+    {
+      "id": "retail",
+      "ar": "التجزئة",
+      "en": "Retail"
+    },
+    {
+      "id": "conglomerate-diversified",
+      "ar": "مجموعة تجارية متنوعة",
+      "en": "Diversified conglomerate"
+    },
+    {
+      "id": "tourism-development",
+      "ar": "التطوير السياحي",
+      "en": "Tourism development"
+    },
+    {
+      "id": "telecom",
+      "ar": "الاتصالات",
+      "en": "Telecom"
+    },
+    {
+      "id": "technology-software",
+      "ar": "التقنية والبرمجيات",
+      "en": "Technology & software"
+    },
+    {
+      "id": "government-semigov",
+      "ar": "جهات حكومية وشبه حكومية",
+      "en": "Government & semi-government"
+    },
+    {
+      "id": "insurance-healthcare",
+      "ar": "التأمين والرعاية الصحية",
+      "en": "Insurance & healthcare"
+    },
+    {
+      "id": "banking-finance",
+      "ar": "البنوك والتمويل",
+      "en": "Banking & finance"
+    },
+    {
+      "id": "research-education",
+      "ar": "البحث والتعليم",
+      "en": "Research & education"
+    }
+  ],
+  "cities": [
+    {
+      "id": "riyadh",
+      "ar": "الرياض",
+      "en": "Riyadh"
+    },
+    {
+      "id": "jeddah",
+      "ar": "جدة",
+      "en": "Jeddah"
+    },
+    {
+      "id": "dhahran",
+      "ar": "الظهران",
+      "en": "Dhahran"
+    },
+    {
+      "id": "jubail",
+      "ar": "الجبيل",
+      "en": "Jubail"
+    },
+    {
+      "id": "thuwal",
+      "ar": "ثول",
+      "en": "Thuwal"
+    },
+    {
+      "id": "umluj",
+      "ar": "أملج",
+      "en": "Umluj"
+    },
+    {
+      "id": "al-kharj",
+      "ar": "الخرج",
+      "en": "Al-Kharj"
+    },
+    {
+      "id": "dammam",
+      "ar": "الدمام",
+      "en": "Dammam"
+    }
+  ],
+  "companies": [
+    {
+      "id": "sami",
+      "name": {
+        "ar": "الشركة السعودية للصناعات العسكرية (SAMI)",
+        "en": "Saudi Arabian Military Industries (SAMI)"
+      },
+      "cities": [
+        "riyadh"
+      ],
+      "sector": "aviation-defense",
+      "fields": [
+        "mechanical-aerospace"
+      ],
+      "typicalRoles": [
+        "Mechanical Engineer",
+        "Manufacturing Engineer",
+        "Quality"
+      ],
+      "about": {
+        "ar": "الشركة الوطنية المملوكة لصندوق الاستثمارات العامة، وهدفها توطين 50% من الإنفاق العسكري بحلول 2030، وتضم ذراعاً جوية وأخرى للإلكترونيات المتقدمة.",
+        "en": "The national defence company owned by the Public Investment Fund, aiming to localise 50% of military spending by 2030, with an aviation arm and an advanced-electronics arm."
+      },
+      "goodFor": {
+        "ar": "من لديهم تعرّض سابق لمنصات أو معدات عسكرية.",
+        "en": "Candidates with prior exposure to military platforms or equipment."
+      },
+      "salary": {
+        "min": 10000,
+        "max": 15000,
+        "kind": "estimate",
+        "level": "fresh graduate"
+      },
+      "careersUrl": "https://sami.com.sa/ar/careers-ar/",
+      "linkType": "careers-portal",
+      "sourceId": "S1",
+      "asOf": "2026-08-31",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": ""
+      }
+    },
+    {
+      "id": "boeing-saudi",
+      "name": {
+        "ar": "بوينغ السعودية",
+        "en": "Boeing Saudi Arabia"
+      },
+      "cities": [
+        "riyadh"
+      ],
+      "sector": "aviation-defense",
+      "fields": [
+        "mechanical-aerospace"
+      ],
+      "typicalRoles": [
+        "Manufacturing/Quality Engineer",
+        "Support Engineer"
+      ],
+      "about": {
+        "ar": "حضور متنامٍ لشركة بوينغ في المملكة عبر شراكات توطين الصناعة والدعم اللوجستي للأساطيل، بمعايير أمريكية موثقة.",
+        "en": "Boeing has a growing presence in Saudi Arabia through industrial-localisation partnerships and fleet logistics support, operating to documented US standards."
+      },
+      "goodFor": {
+        "ar": "خريجون بإنجليزية جيدة ومعرفة بمعايير صيانة موثقة.",
+        "en": "Graduates with good English and familiarity with documented maintenance standards."
+      },
+      "salary": {
+        "min": 12000,
+        "max": 18000,
+        "kind": "estimate",
+        "level": "fresh graduate"
+      },
+      "careersUrl": "https://jobs.boeing.com/location/riyadh-riyadh-region-saudi-arabia-jobs/185/102358-108411-108410/4",
+      "linkType": "careers-portal",
+      "sourceId": "S1",
+      "asOf": "2026-08-31",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": ""
+      }
+    },
+    {
+      "id": "riyadh-air",
+      "name": {
+        "ar": "طيران الرياض",
+        "en": "Riyadh Air"
+      },
+      "cities": [
+        "riyadh"
+      ],
+      "sector": "aviation-defense",
+      "fields": [
+        "mechanical-aerospace"
+      ],
+      "typicalRoles": [
+        "Engineering & Maintenance",
+        "Technical Services"
+      ],
+      "about": {
+        "ar": "الناقل الوطني الجديد المملوك لصندوق الاستثمارات العامة، يبني إدارة هندسة وصيانة من الصفر.",
+        "en": "The new national carrier owned by the Public Investment Fund, building its engineering and maintenance department from scratch."
+      },
+      "goodFor": {
+        "ar": "خريجون بلا خبرة طويلة، حيث تبني الشركة فريقها من الصفر بدل استبداله.",
+        "en": "Graduates without long experience, since the company is building its team from the ground up rather than replacing one."
+      },
+      "salary": {
+        "min": 10000,
+        "max": 16000,
+        "kind": "estimate",
+        "level": "fresh graduate"
+      },
+      "careersUrl": "https://www.riyadhair.com/en/careers/engineering",
+      "linkType": "careers-portal",
+      "sourceId": "S1",
+      "asOf": "2026-08-31",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": ""
+      }
+    },
+    {
+      "id": "flynas",
+      "name": {
+        "ar": "طيران ناس",
+        "en": "flynas"
+      },
+      "cities": [
+        "riyadh"
+      ],
+      "sector": "aviation-defense",
+      "fields": [
+        "mechanical-aerospace"
+      ],
+      "typicalRoles": [
+        "Maintenance Planning",
+        "Technical Records",
+        "Engineering"
+      ],
+      "about": {
+        "ar": "أكبر ناقل اقتصادي في المنطقة ومقره الرياض، بأسطول في توسع مستمر.",
+        "en": "The largest low-cost carrier in the region, headquartered in Riyadh, with a continuously expanding fleet."
+      },
+      "goodFor": {
+        "ar": "من لا يملك رخصة صيانة بعد ويريد مدخلاً عبر تخطيط الصيانة أو السجلات الفنية.",
+        "en": "Those without a maintenance licence yet, looking for an entry point via maintenance planning or technical records."
+      },
+      "salary": {
+        "min": 9000,
+        "max": 14000,
+        "kind": "estimate",
+        "level": "fresh graduate"
+      },
+      "careersUrl": "https://www.gulftalent.com/companies/flynas-careers",
+      "linkType": "job-board",
+      "sourceId": "S1",
+      "asOf": "2026-08-31",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": "Opened in Chrome (blocks plain scripted requests)."
+      }
+    },
+    {
+      "id": "saudia-technic",
+      "name": {
+        "ar": "السعودية لهندسة وصناعة الطيران (Saudia Technic)",
+        "en": "Saudia Technic"
+      },
+      "cities": [
+        "jeddah"
+      ],
+      "sector": "aviation-defense",
+      "fields": [
+        "mechanical-aerospace",
+        "it-support-enterprise",
+        "networking-security"
+      ],
+      "typicalRoles": [
+        "Aircraft Inspector",
+        "Maintenance Planning",
+        "Engineering",
+        "IT Support",
+        "Technical Records",
+        "Systems"
+      ],
+      "about": {
+        "ar": "أكبر مركز صيانة وإصلاح وعمرة للطائرات في الشرق الأوسط، وذراع الخطوط السعودية الفنية، بورش محركات وهياكل ومكوّنات في جدة.",
+        "en": "The largest aircraft MRO centre in the Middle East, the technical arm of Saudia, with engine, structures and components workshops in Jeddah."
+      },
+      "goodFor": {
+        "ar": "خريجو هندسة ميكانيكية بخبرة فحص والتزام بالمعايير، أو خريجو تقنية معلومات/شبكات بخبرة دعم تقني منظم.",
+        "en": "Mechanical engineering graduates with inspection/standards experience, or IT/networking graduates with structured technical-support experience."
+      },
+      "salary": {
+        "min": 9000,
+        "max": 14000,
+        "kind": "estimate",
+        "level": "fresh graduate"
+      },
+      "salaryByField": {
+        "mechanical-aerospace": {
+          "min": 9000,
+          "max": 14000,
+          "sourceId": "S1",
+          "asOf": "2026-08-31"
+        },
+        "it-support-enterprise": {
+          "min": 8000,
+          "max": 13000,
+          "sourceId": "S2",
+          "asOf": "2026-09-05"
+        },
+        "networking-security": {
+          "min": 8000,
+          "max": 13000,
+          "sourceId": "S2",
+          "asOf": "2026-09-05"
+        }
+      },
+      "careersUrl": "https://careers.saudiatechnic.com/",
+      "linkType": "careers-portal",
+      "sourceId": "S1",
+      "asOf": "2026-08-31",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": ""
+      }
+    },
+    {
+      "id": "zahid-group",
+      "name": {
+        "ar": "مجموعة زاهد (Zahid Group)",
+        "en": "Zahid Group"
+      },
+      "cities": [
+        "jeddah"
+      ],
+      "sector": "energy-industrial",
+      "fields": [
+        "mechanical-aerospace",
+        "energy-industrial"
+      ],
+      "typicalRoles": [
+        "Field Service Engineer",
+        "Product Support"
+      ],
+      "about": {
+        "ar": "الوكيل الحصري لكاتربيلر في المملكة، مقرها جدة، تخدم قطاعات التعدين والإنشاء والطاقة بمحركات ومعدات ثقيلة.",
+        "en": "The exclusive Caterpillar dealer in Saudi Arabia, headquartered in Jeddah, serving mining, construction and energy with heavy engines and equipment."
+      },
+      "goodFor": {
+        "ar": "خريجون بمهارات تشخيص وإصلاح محركات قابلة للنقل بين التوربينات ومحركات الديزل الثقيلة.",
+        "en": "Graduates with engine diagnostic/repair skills transferable between turbines and heavy diesel engines."
+      },
+      "salary": {
+        "min": 8000,
+        "max": 12000,
+        "kind": "estimate",
+        "level": "fresh graduate"
+      },
+      "careersUrl": "https://careers.zahid.com/",
+      "linkType": "careers-portal",
+      "sourceId": "S1",
+      "asOf": "2026-08-31",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": ""
+      }
+    },
+    {
+      "id": "alj",
+      "name": {
+        "ar": "عبداللطيف جميل",
+        "en": "Abdul Latif Jameel (ALJ)"
+      },
+      "cities": [
+        "jeddah"
+      ],
+      "sector": "conglomerate-diversified",
+      "fields": [
+        "mechanical-aerospace",
+        "networking-security",
+        "it-support-enterprise",
+        "software-ai"
+      ],
+      "typicalRoles": [
+        "Service Engineer",
+        "IT Support",
+        "Network",
+        "Digital",
+        "Graduate Opportunities"
+      ],
+      "about": {
+        "ar": "مجموعة عائلية عريقة مقرها جدة، أعمالها من وكالة تويوتا إلى الطاقة المتجددة والتمويل والصحة والتقنية.",
+        "en": "A long-established family conglomerate headquartered in Jeddah, spanning the Toyota agency, renewable energy, finance, healthcare and technology."
+      },
+      "goodFor": {
+        "ar": "خريجون في مسارات ميكانيكية أو شبكات/دعم تقني أو برمجيات، نظراً لتنوع قطاعات المجموعة.",
+        "en": "Graduates in mechanical, networking/IT-support or software tracks, given the group's diverse sectors."
+      },
+      "salary": {
+        "min": 8000,
+        "max": 13000,
+        "kind": "estimate",
+        "level": "fresh graduate"
+      },
+      "salaryByField": {
+        "mechanical-aerospace": {
+          "min": 8000,
+          "max": 13000,
+          "sourceId": "S1",
+          "asOf": "2026-08-31"
+        },
+        "networking-security": {
+          "min": 8000,
+          "max": 12000,
+          "sourceId": "S2",
+          "asOf": "2026-09-05"
+        },
+        "software-ai": {
+          "min": 9000,
+          "max": 13000,
+          "sourceId": "S4",
+          "asOf": "2026-09-04"
+        },
+        "it-support-enterprise": {
+          "min": 9000,
+          "max": 13000,
+          "sourceId": "S4",
+          "asOf": "2026-09-04"
+        }
+      },
+      "careersUrl": "https://alj.com/en/about/careers/",
+      "linkType": "careers-portal",
+      "sourceId": "S1",
+      "asOf": "2026-08-31",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": ""
+      }
+    },
+    {
+      "id": "red-sea-global",
+      "name": {
+        "ar": "البحر الأحمر العالمية (Red Sea Global)",
+        "en": "Red Sea Global"
+      },
+      "cities": [
+        "jeddah",
+        "umluj"
+      ],
+      "sector": "tourism-development",
+      "fields": [
+        "mechanical-aerospace",
+        "energy-industrial"
+      ],
+      "typicalRoles": [
+        "MEP/Mechanical Engineer",
+        "Facilities"
+      ],
+      "about": {
+        "ar": "أحد أكبر مشاريع التطوير السياحي في العالم، يدير أصولاً من محطات طاقة شمسية وتبريد ومنشآت فندقية بين جدة والساحل الشمالي.",
+        "en": "One of the world's largest tourism development projects, operating assets from solar power and cooling plants to hotel facilities between Jeddah and the northern coast."
+      },
+      "goodFor": {
+        "ar": "خريجون بخلفية MEP أو معايير ASHRAE وحسابات طاقة.",
+        "en": "Graduates with an MEP background or ASHRAE standards and energy-calculation experience."
+      },
+      "salary": {
+        "min": 9000,
+        "max": 14000,
+        "kind": "estimate",
+        "level": "fresh graduate"
+      },
+      "careersUrl": "https://www.linkedin.com/company/redseaglobal/jobs/",
+      "linkType": "linkedin-jobs",
+      "sourceId": "S1",
+      "asOf": "2026-08-31",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": ""
+      }
+    },
+    {
+      "id": "sabic",
+      "name": {
+        "ar": "سابك (SABIC)",
+        "en": "SABIC"
+      },
+      "cities": [
+        "riyadh",
+        "jubail"
+      ],
+      "sector": "energy-industrial",
+      "fields": [
+        "mechanical-aerospace",
+        "software-ai",
+        "it-support-enterprise"
+      ],
+      "typicalRoles": [
+        "Mechanical Engineer",
+        "IT/Digital track"
+      ],
+      "about": {
+        "ar": "عملاق البتروكيماويات ومقره الرئيسي في الرياض، بأكبر أسطول معدات دوارة وتوربينات في القطاع الخاص السعودي، ولديه إدارة رقمنة وتحليلات بيانات.",
+        "en": "A petrochemicals giant headquartered in Riyadh, with the largest fleet of rotating equipment and turbines in the Saudi private sector, plus a digitalisation and data-analytics division."
+      },
+      "goodFor": {
+        "ar": "خريجو الهندسة الميكانيكية أو علوم الحاسب/تقنية المعلومات عبر مسار حديثي التخرج المعلن.",
+        "en": "Mechanical engineering or CS/IT graduates via the published fresh-graduate track."
+      },
+      "salary": {
+        "min": 13000,
+        "max": 18000,
+        "kind": "estimate",
+        "level": "fresh graduate"
+      },
+      "careersUrl": "https://www.sabic.com/en/careers/middle-east-africa/students-and-fresh-graduates",
+      "linkType": "careers-portal",
+      "sourceId": "S1",
+      "asOf": "2026-08-31",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": "Opened in Chrome (blocks plain scripted requests)."
+      }
+    },
+    {
+      "id": "maaden",
+      "name": {
+        "ar": "معادن (Ma'aden)",
+        "en": "Ma'aden"
+      },
+      "cities": [
+        "riyadh"
+      ],
+      "sector": "energy-industrial",
+      "fields": [
+        "mechanical-aerospace",
+        "energy-industrial"
+      ],
+      "typicalRoles": [
+        "Maintenance Engineer",
+        "Reliability Engineer"
+      ],
+      "about": {
+        "ar": "شركة التعدين الوطنية وثالث أكبر شركة مدرجة في السوق السعودي، بمجمعات ضخمة للفوسفات والألمنيوم.",
+        "en": "The national mining company and the third-largest listed company on the Saudi market, with large phosphate and aluminium complexes."
+      },
+      "goodFor": {
+        "ar": "من يجيد قراءة الكتيبات الفنية والعمل بمعايير موثوقية وصيانة وقائية صارمة.",
+        "en": "Those skilled at reading technical manuals and working to strict reliability/preventive-maintenance standards."
+      },
+      "salary": {
+        "min": 12000,
+        "max": 17000,
+        "kind": "estimate",
+        "level": "fresh graduate"
+      },
+      "careersUrl": "https://www.linkedin.com/company/maaden/jobs/",
+      "linkType": "linkedin-jobs",
+      "sourceId": "S1",
+      "asOf": "2026-08-31",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": ""
+      }
+    },
+    {
+      "id": "acwa-power",
+      "name": {
+        "ar": "أكوا باور (ACWA Power)",
+        "en": "ACWA Power"
+      },
+      "cities": [
+        "riyadh"
+      ],
+      "sector": "energy-industrial",
+      "fields": [
+        "mechanical-aerospace",
+        "energy-industrial"
+      ],
+      "typicalRoles": [
+        "Graduate Development Program",
+        "O&M Engineer"
+      ],
+      "about": {
+        "ar": "مطوّر ومشغّل محطات الطاقة والمياه السعودي الأبرز عالمياً، بمحفظة مشاريع من نيوم إلى آسيا وأفريقيا، ولديه برنامج تطوير خريجين معلن.",
+        "en": "Saudi Arabia's leading global power and water developer/operator, with a project portfolio from NEOM to Asia and Africa, and a published graduate development programme."
+      },
+      "goodFor": {
+        "ar": "خريجون بخبرة في المعدات الدوارة والتوربينات الغازية.",
+        "en": "Graduates with rotating-equipment or gas-turbine exposure."
+      },
+      "salary": {
+        "min": 11000,
+        "max": 16000,
+        "kind": "estimate",
+        "level": "fresh graduate"
+      },
+      "careersUrl": "https://www.gulftalent.com/companies/acwa-power-international-careers",
+      "linkType": "job-board",
+      "sourceId": "S1",
+      "asOf": "2026-08-31",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": null,
+        "status": 403,
+        "note": "Blocks automated checks (HTTP 403); open it in a browser."
+      }
+    },
+    {
+      "id": "almarai",
+      "name": {
+        "ar": "المراعي (Almarai)",
+        "en": "Almarai"
+      },
+      "cities": [
+        "riyadh",
+        "al-kharj"
+      ],
+      "sector": "food-manufacturing",
+      "fields": [
+        "mechanical-aerospace",
+        "food-manufacturing"
+      ],
+      "typicalRoles": [
+        "Maintenance Engineer",
+        "Production Engineer",
+        "Production Manager",
+        "Bakery Operations",
+        "Planning"
+      ],
+      "about": {
+        "ar": "أكبر شركة أغذية متكاملة في الشرق الأوسط، ومصانعها في الخرج والرياض من أكثر المنشآت أتمتة في المملكة.",
+        "en": "The largest integrated food company in the Middle East, with factories in Al-Kharj and Riyadh among the most automated facilities in Saudi Arabia."
+      },
+      "goodFor": {
+        "ar": "خريجو هندسة ميكانيكية لصيانة الإنتاج، أو مدراء ومشرفو إنتاج بخبرة في المخابز والمعجنات.",
+        "en": "Mechanical engineering graduates for production maintenance, or production managers/supervisors with bakery experience."
+      },
+      "salary": {
+        "min": 9000,
+        "max": 13000,
+        "kind": "estimate",
+        "level": "fresh graduate"
+      },
+      "salaryByField": {
+        "mechanical-aerospace": {
+          "min": 9000,
+          "max": 13000,
+          "sourceId": "S1",
+          "asOf": "2026-08-31",
+          "level": "fresh graduate"
+        },
+        "food-manufacturing": {
+          "min": 14000,
+          "max": 22000,
+          "sourceId": "S3",
+          "asOf": "2026-09-06",
+          "level": "experienced (3+ years, supervisor/manager track)"
+        }
+      },
+      "careersUrl": "https://career5.successfactors.eu/career?company=AlMaraiP",
+      "linkType": "careers-portal",
+      "sourceId": "S1",
+      "asOf": "2026-08-31",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": ""
+      }
+    },
+    {
+      "id": "thales-saudi",
+      "name": {
+        "ar": "تاليس (Thales) السعودية",
+        "en": "Thales Saudi Arabia"
+      },
+      "cities": [
+        "riyadh"
+      ],
+      "sector": "technology-software",
+      "fields": [
+        "networking-security",
+        "it-support-enterprise"
+      ],
+      "typicalRoles": [
+        "IT/Network Support Engineer"
+      ],
+      "about": {
+        "ar": "مجموعة دفاع وتقنية فرنسية عالمية، لها حضور قوي في المملكة عبر شراكات النقل والدفاع والأمن الرقمي، ورواتبها من الأعلى في قطاع التقنية.",
+        "en": "A global French defence and technology group with a strong presence in Saudi Arabia through transport, defence and digital-security partnerships; among the higher-paying employers in tech."
+      },
+      "goodFor": {
+        "ar": "خريجو شبكات بشهادة CCNA وخبرة تهيئة أجهزة.",
+        "en": "Networking graduates with a CCNA certificate and device-configuration experience."
+      },
+      "salary": {
+        "min": 10000,
+        "max": 16000,
+        "kind": "estimate",
+        "level": "fresh graduate"
+      },
+      "careersUrl": "https://www.naukrigulf.com/thales-jobs-in-saudi-arabia",
+      "linkType": "job-board",
+      "sourceId": "S2",
+      "asOf": "2026-09-05",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": ""
+      }
+    },
+    {
+      "id": "solutions-by-stc",
+      "name": {
+        "ar": "solutions by stc",
+        "en": "solutions by stc"
+      },
+      "cities": [
+        "riyadh"
+      ],
+      "sector": "telecom",
+      "fields": [
+        "networking-security",
+        "software-ai",
+        "it-support-enterprise"
+      ],
+      "typicalRoles": [
+        "Network Engineer",
+        "Managed Services",
+        "NOC",
+        "Systems/Infrastructure Engineer"
+      ],
+      "about": {
+        "ar": "ذراع الحلول المؤسسية لمجموعة stc، تدير شبكات وبنية تحتية وأمناً مُداراً لعملاء حكوميين وشركات كبرى، ولديها مسار مستقل لحديثي التخرج.",
+        "en": "The enterprise-solutions arm of the stc group, managing networks, infrastructure and managed security for government and enterprise clients, with a dedicated fresh-graduate track."
+      },
+      "goodFor": {
+        "ar": "من يملك CCNA وخبرة تهيئة أجهزة، أو خبرة تشغيلية في Active Directory وSCCM.",
+        "en": "Those with CCNA and device-configuration experience, or operational experience with Active Directory and SCCM."
+      },
+      "salary": {
+        "min": 8000,
+        "max": 13000,
+        "kind": "estimate",
+        "level": "fresh graduate"
+      },
+      "salaryByField": {
+        "networking-security": {
+          "min": 8000,
+          "max": 13000,
+          "sourceId": "S2",
+          "asOf": "2026-09-05"
+        },
+        "it-support-enterprise": {
+          "min": 9000,
+          "max": 13000,
+          "sourceId": "S4",
+          "asOf": "2026-09-04"
+        }
+      },
+      "careersUrl": "https://solutions.com.sa/careers/",
+      "linkType": "careers-portal",
+      "sourceId": "S2",
+      "asOf": "2026-09-05",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": "Opened in Chrome (blocks plain scripted requests)."
+      }
+    },
+    {
+      "id": "stc",
+      "name": {
+        "ar": "شركة الاتصالات السعودية (stc)",
+        "en": "stc"
+      },
+      "cities": [
+        "riyadh"
+      ],
+      "sector": "telecom",
+      "fields": [
+        "networking-security"
+      ],
+      "typicalRoles": [
+        "Network Operations",
+        "Core Network"
+      ],
+      "about": {
+        "ar": "أكبر مشغّل اتصالات في المملكة، يدير أضخم شبكة أساسية ومراكز عمليات في المنطقة.",
+        "en": "The largest telecom operator in Saudi Arabia, running the region's largest core network and operations centres."
+      },
+      "goodFor": {
+        "ar": "خريجو شبكات لوظائف عمليات الشبكة العادية، لا تشترط المعدل المرتفع المطلوب في برنامج TIP.",
+        "en": "Networking graduates for regular network-operations vacancies, which do not require the high GPA the TIP programme asks for."
+      },
+      "salary": {
+        "min": 10000,
+        "max": 15000,
+        "kind": "estimate",
+        "level": "fresh graduate"
+      },
+      "careersUrl": "https://careers.stc.com.sa/content/TIP/?locale=en_US",
+      "linkType": "careers-portal",
+      "sourceId": "S2",
+      "asOf": "2026-09-05",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": ""
+      }
+    },
+    {
+      "id": "zain-ksa",
+      "name": {
+        "ar": "زين السعودية (Zain KSA)",
+        "en": "Zain KSA"
+      },
+      "cities": [
+        "riyadh"
+      ],
+      "sector": "telecom",
+      "fields": [
+        "networking-security"
+      ],
+      "typicalRoles": [
+        "Network Operations",
+        "Technical Support"
+      ],
+      "about": {
+        "ar": "ثالث أكبر مشغّل اتصالات في المملكة، ولديه بوابة تقديم إلكترونية تستقبل الطلبات المفتوحة على مدار السنة.",
+        "en": "The third-largest telecom operator in Saudi Arabia, with an open application portal accepting applications year-round even without an announced vacancy."
+      },
+      "goodFor": {
+        "ar": "خريجو شبكات يريدون تسجيل ملف مفتوح لدى مشغّل اتصالات كبير.",
+        "en": "Networking graduates wanting to register an open profile with a large telecom operator."
+      },
+      "salary": {
+        "min": 8000,
+        "max": 13000,
+        "kind": "estimate",
+        "level": "fresh graduate"
+      },
+      "careersUrl": "https://sa.zain.com/en/careers/join-zain",
+      "linkType": "careers-portal",
+      "sourceId": "S2",
+      "asOf": "2026-09-05",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": ""
+      }
+    },
+    {
+      "id": "mobily",
+      "name": {
+        "ar": "موبايلي (Mobily)",
+        "en": "Mobily"
+      },
+      "cities": [
+        "riyadh"
+      ],
+      "sector": "telecom",
+      "fields": [
+        "networking-security"
+      ],
+      "typicalRoles": [
+        "NOC Engineer",
+        "Field Network Engineer"
+      ],
+      "about": {
+        "ar": "ثاني أكبر مشغّل اتصالات، يستثمر بكثافة في الألياف الضوئية ومراكز البيانات وخدمات الأعمال.",
+        "en": "The second-largest telecom operator, investing heavily in fibre optics, data centres and business services."
+      },
+      "goodFor": {
+        "ar": "خريجو شبكات بشهادة CCNA لوظائف الشبكة الميدانية دون اشتراط سنوات خبرة.",
+        "en": "Networking graduates with a CCNA certificate for field-network roles, with no experience-years requirement."
+      },
+      "salary": {
+        "min": 9000,
+        "max": 14000,
+        "kind": "estimate",
+        "level": "fresh graduate"
+      },
+      "careersUrl": "https://www.linkedin.com/company/mobily/jobs/",
+      "linkType": "linkedin-jobs",
+      "sourceId": "S2",
+      "asOf": "2026-09-05",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": ""
+      }
+    },
+    {
+      "id": "center3",
+      "name": {
+        "ar": "center3",
+        "en": "center3"
+      },
+      "cities": [
+        "riyadh",
+        "jeddah",
+        "dammam"
+      ],
+      "sector": "telecom",
+      "fields": [
+        "networking-security"
+      ],
+      "typicalRoles": [
+        "Data Center Technician",
+        "Network Operations"
+      ],
+      "about": {
+        "ar": "شركة البنية التحتية الرقمية التابعة لمجموعة stc، تدير مراكز بيانات محايدة وكوابل بحرية ونقاط تبادل إنترنت في الرياض وجدة والدمام.",
+        "en": "The digital-infrastructure company under the stc group, operating carrier-neutral data centres, subsea cables and internet exchange points in Riyadh, Jeddah and Dammam."
+      },
+      "goodFor": {
+        "ar": "خريجو شبكات لوظائف فني مركز بيانات، تُدرَّب على رأس العمل.",
+        "en": "Networking graduates for data-centre technician roles, trained on the job."
+      },
+      "salary": {
+        "min": 9000,
+        "max": 14000,
+        "kind": "estimate",
+        "level": "fresh graduate"
+      },
+      "careersUrl": "https://www.linkedin.com/company/center3/jobs/",
+      "linkType": "linkedin-jobs",
+      "sourceId": "S2",
+      "asOf": "2026-09-05",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": ""
+      }
+    },
+    {
+      "id": "cyberani",
+      "name": {
+        "ar": "سيبراني (Cyberani)",
+        "en": "Cyberani"
+      },
+      "cities": [
+        "riyadh",
+        "dhahran"
+      ],
+      "sector": "technology-software",
+      "fields": [
+        "networking-security"
+      ],
+      "typicalRoles": [
+        "SOC Analyst",
+        "Network Security"
+      ],
+      "about": {
+        "ar": "شركة أمن سيبراني سعودية منبثقة عن منظومة أرامكو، تقدم خدمات مراقبة واستجابة للحوادث واختبار اختراق.",
+        "en": "A Saudi cybersecurity company spun off from the Aramco ecosystem, providing monitoring, incident response and penetration-testing services."
+      },
+      "goodFor": {
+        "ar": "خريجو شبكات/أمن سيبراني بشهادات مثل Security+ أو CEH إضافة إلى CCNA.",
+        "en": "Networking/cybersecurity graduates with certificates such as Security+ or CEH in addition to CCNA."
+      },
+      "salary": {
+        "min": 10000,
+        "max": 16000,
+        "kind": "estimate",
+        "level": "fresh graduate"
+      },
+      "careersUrl": "https://cyberani.sa/ar/careers",
+      "linkType": "careers-portal",
+      "sourceId": "S2",
+      "asOf": "2026-09-05",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": "Opened in Chrome (blocks plain scripted requests)."
+      }
+    },
+    {
+      "id": "tahakom",
+      "name": {
+        "ar": "تحكّم (Tahakom)",
+        "en": "Tahakom"
+      },
+      "cities": [
+        "riyadh"
+      ],
+      "sector": "government-semigov",
+      "fields": [
+        "networking-security",
+        "software-ai",
+        "it-support-enterprise"
+      ],
+      "typicalRoles": [
+        "Network Engineer",
+        "Systems",
+        "Cybersecurity"
+      ],
+      "about": {
+        "ar": "الشركة السعودية للتقنية والأمن، تدير أنظمة المرور والمراقبة الذكية والبنية التحتية الأمنية على مستوى المملكة.",
+        "en": "The Saudi technology and security company, operating traffic systems, smart surveillance and security infrastructure nationwide."
+      },
+      "goodFor": {
+        "ar": "خريجو شبكات بخبرة تمديدات وسويتشات وشبكات لاسلكية، أو خريجو أنظمة/أمن سيبراني.",
+        "en": "Networking graduates with cabling, switching and wireless experience, or systems/cybersecurity graduates."
+      },
+      "salary": {
+        "min": 9000,
+        "max": 13000,
+        "kind": "estimate",
+        "level": "fresh graduate"
+      },
+      "careersUrl": "https://careers.tahakom.com/?locale=ar_SA",
+      "linkType": "careers-portal",
+      "sourceId": "S2",
+      "asOf": "2026-09-05",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": ""
+      }
+    },
+    {
+      "id": "site-sa",
+      "name": {
+        "ar": "الشركة السعودية لتقنية المعلومات (سايت / SITE)",
+        "en": "Saudi Information Technology Company (SITE)"
+      },
+      "cities": [
+        "riyadh"
+      ],
+      "sector": "government-semigov",
+      "fields": [
+        "networking-security"
+      ],
+      "typicalRoles": [
+        "SOC Analyst",
+        "Security Engineer"
+      ],
+      "about": {
+        "ar": "الشركة السعودية لتقنية المعلومات، أحد أكبر مزودي خدمات الأمن السيبراني للقطاع الحكومي، وتشغّل مراكز عمليات أمنية كبيرة.",
+        "en": "The Saudi Information Technology Company, one of the largest cybersecurity service providers for the government sector, operating large security-operations centres."
+      },
+      "goodFor": {
+        "ar": "خريجو أمن سيبراني/شبكات لوظائف SOC من المستوى الأول، تعتمد على نظام مناوبات يجعلها أكثر تقبلاً للخريجين الجدد.",
+        "en": "Cybersecurity/networking graduates for Tier-1 SOC roles, which run on shifts and are more open to fresh graduates."
+      },
+      "salary": {
+        "min": 9000,
+        "max": 14000,
+        "kind": "estimate",
+        "level": "fresh graduate"
+      },
+      "careersUrl": "https://site.sa/en/join-us",
+      "linkType": "careers-portal",
+      "sourceId": "S2",
+      "asOf": "2026-09-05",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": ""
+      },
+      "replacedLink": "https://www.linkedin.com/company/site-sa/jobs/"
+    },
+    {
+      "id": "elm",
+      "name": {
+        "ar": "شركة علم (Elm)",
+        "en": "Elm"
+      },
+      "cities": [
+        "riyadh"
+      ],
+      "sector": "government-semigov",
+      "fields": [
+        "networking-security",
+        "software-ai",
+        "it-support-enterprise"
+      ],
+      "typicalRoles": [
+        "Infrastructure Engineer",
+        "IT Operations",
+        "Fresh Graduate roles"
+      ],
+      "about": {
+        "ar": "ذراع رقمنة الخدمات الحكومية (مثل أبشر) ومن أكبر مشغّلي المطورين والمهندسين في الرياض، ولديها بوابة مخصصة لحديثي التخرج.",
+        "en": "The government digital-services company (e.g. Absher), one of the largest employers of developers and engineers in Riyadh, with a dedicated fresh-graduate portal."
+      },
+      "goodFor": {
+        "ar": "خريجو تقنية معلومات/شبكات أو برمجة، عبر بوابة حديثي التخرج وتنبيهات الوظائف.",
+        "en": "IT/networking or software graduates, via the fresh-graduate portal and job alerts."
+      },
+      "salary": {
+        "min": 9000,
+        "max": 14000,
+        "kind": "estimate",
+        "level": "fresh graduate"
+      },
+      "salaryByField": {
+        "networking-security": {
+          "min": 9000,
+          "max": 14000,
+          "sourceId": "S2",
+          "asOf": "2026-09-05"
+        },
+        "software-ai": {
+          "min": 10000,
+          "max": 14000,
+          "sourceId": "S4",
+          "asOf": "2026-09-04"
+        },
+        "it-support-enterprise": {
+          "min": 10000,
+          "max": 14000,
+          "sourceId": "S4",
+          "asOf": "2026-09-04"
+        }
+      },
+      "careersUrl": "https://career.elm.sa/elm/go/freshgraduate/8483400/",
+      "linkType": "careers-portal",
+      "sourceId": "S2",
+      "asOf": "2026-09-05",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": ""
+      }
+    },
+    {
+      "id": "bupa-arabia",
+      "name": {
+        "ar": "بوبا العربية",
+        "en": "Bupa Arabia"
+      },
+      "cities": [
+        "jeddah"
+      ],
+      "sector": "insurance-healthcare",
+      "fields": [
+        "networking-security",
+        "software-ai",
+        "it-support-enterprise"
+      ],
+      "typicalRoles": [
+        "IT Infrastructure",
+        "Service Desk",
+        "Security",
+        "Data Analyst",
+        "Digital"
+      ],
+      "about": {
+        "ar": "أكبر شركة تأمين صحي في المملكة ومقرها جدة، تخضع لمتطلبات حماية بيانات صارمة، ومصنّفة ضمن أفضل بيئات العمل محلياً.",
+        "en": "The largest health insurer in Saudi Arabia, headquartered in Jeddah, subject to strict data-protection requirements, and rated among the best local workplaces."
+      },
+      "goodFor": {
+        "ar": "خريجو دعم تقني/أمن معلومات أو محللو بيانات — القطاع يرقّي داخلياً من الدعم إلى الشبكات والأمن.",
+        "en": "IT-support/security graduates, or data analysts — the sector often promotes internally from support into networking and security."
+      },
+      "salary": {
+        "min": 8000,
+        "max": 13000,
+        "kind": "estimate",
+        "level": "fresh graduate"
+      },
+      "salaryByField": {
+        "networking-security": {
+          "min": 8000,
+          "max": 13000,
+          "sourceId": "S2",
+          "asOf": "2026-09-05"
+        },
+        "software-ai": {
+          "min": 9000,
+          "max": 13000,
+          "sourceId": "S4",
+          "asOf": "2026-09-04"
+        },
+        "it-support-enterprise": {
+          "min": 9000,
+          "max": 13000,
+          "sourceId": "S4",
+          "asOf": "2026-09-04"
+        }
+      },
+      "careersUrl": "https://careers.bupa.com.sa/en/saudi-arabia/jobs/",
+      "linkType": "careers-portal",
+      "sourceId": "S2",
+      "asOf": "2026-09-05",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": ""
+      }
+    },
+    {
+      "id": "savola",
+      "name": {
+        "ar": "مجموعة صافولا (Savola)",
+        "en": "Savola Group"
+      },
+      "cities": [
+        "jeddah"
+      ],
+      "sector": "food-manufacturing",
+      "fields": [
+        "food-manufacturing"
+      ],
+      "typicalRoles": [
+        "Production Manager",
+        "Operations",
+        "Supply Chain"
+      ],
+      "about": {
+        "ar": "أكبر مجموعة أغذية في المملكة ومقرها جدة، تملك صافولا للأغذية (عافية) والشركة المتحدة للسكر وحصصاً في المراعي وهرفي وبنده.",
+        "en": "The largest food group in Saudi Arabia, headquartered in Jeddah, owning Savola Foods (Afia), United Sugar Company and stakes in Almarai, Herfy and Panda."
+      },
+      "goodFor": {
+        "ar": "مدراء إنتاج بخبرة في مؤشرات الأداء وسجلات الإنتاج وخفض التكاليف.",
+        "en": "Production managers with experience in KPIs, production records and cost reduction."
+      },
+      "salary": {
+        "min": 15000,
+        "max": 25000,
+        "kind": "estimate",
+        "level": "experienced (3+ years, supervisor/manager track)"
+      },
+      "careersUrl": "https://www.gulftalent.com/companies/savola-careers",
+      "linkType": "job-board",
+      "sourceId": "S3",
+      "asOf": "2026-09-06",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": null,
+        "status": 403,
+        "note": "Blocks automated checks (HTTP 403); open it in a browser."
+      }
+    },
+    {
+      "id": "sadafco",
+      "name": {
+        "ar": "سدافكو (SADAFCO)",
+        "en": "SADAFCO"
+      },
+      "cities": [
+        "jeddah"
+      ],
+      "sector": "food-manufacturing",
+      "fields": [
+        "food-manufacturing"
+      ],
+      "typicalRoles": [
+        "Production Supervisor/Manager",
+        "Planning"
+      ],
+      "about": {
+        "ar": "الشركة السعودية لمنتجات الألبان والأغذية، ومقرها جدة، وصاحبة علامة «السعودية» في الحليب طويل الأجل والآيس كريم، وتعمل مصانعها بأنظمة تخطيط موارد متقدمة.",
+        "en": "Saudi Dairy and Foodstuff Company, headquartered in Jeddah, owner of the 'Saudia' brand in UHT milk and ice cream, with factories running advanced ERP systems."
+      },
+      "goodFor": {
+        "ar": "من لديه خلفية نظم معلومات/ERP إضافة إلى خبرة إنتاج غذائي.",
+        "en": "Those with an information-systems/ERP background in addition to food-production experience."
+      },
+      "salary": {
+        "min": 13000,
+        "max": 20000,
+        "kind": "estimate",
+        "level": "experienced (3+ years, supervisor/manager track)"
+      },
+      "careersUrl": "https://www.linkedin.com/company/sadafco/jobs/",
+      "linkType": "linkedin-jobs",
+      "sourceId": "S3",
+      "asOf": "2026-09-06",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": ""
+      }
+    },
+    {
+      "id": "sunbulah",
+      "name": {
+        "ar": "مجموعة سنبلة (Sunbulah)",
+        "en": "Sunbulah Group"
+      },
+      "cities": [
+        "jeddah"
+      ],
+      "sector": "food-manufacturing",
+      "fields": [
+        "food-manufacturing"
+      ],
+      "typicalRoles": [
+        "Production Manager",
+        "Plant Operations"
+      ],
+      "about": {
+        "ar": "من أكبر منتجي الأغذية المجمدة والمعجنات في المنطقة، ومقرها ومصانعها في جدة، تنتج للسوق المحلي والتصدير.",
+        "en": "One of the region's largest frozen-food and pastry manufacturers, headquartered and manufacturing in Jeddah, serving local and export markets."
+      },
+      "goodFor": {
+        "ar": "من لديه خبرة إنتاج مخبوزات أو معجنات.",
+        "en": "Those with bakery or pastry production experience."
+      },
+      "salary": {
+        "min": 12000,
+        "max": 18000,
+        "kind": "estimate",
+        "level": "experienced (3+ years, supervisor/manager track)"
+      },
+      "careersUrl": "https://sa.linkedin.com/company/sunbulah-group",
+      "linkType": "linkedin-jobs",
+      "sourceId": "S3",
+      "asOf": "2026-09-06",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": ""
+      }
+    },
+    {
+      "id": "halwani-brothers",
+      "name": {
+        "ar": "حلواني إخوان",
+        "en": "Halwani Brothers"
+      },
+      "cities": [
+        "jeddah"
+      ],
+      "sector": "food-manufacturing",
+      "fields": [
+        "food-manufacturing"
+      ],
+      "typicalRoles": [
+        "Production Supervisor/Manager",
+        "Quality"
+      ],
+      "about": {
+        "ar": "إحدى أعرق شركات الأغذية السعودية ومقرها جدة، بمنتجات من اللحوم المصنّعة والحلاوة الطحينية والمعمول.",
+        "en": "One of the oldest Saudi food companies, headquartered in Jeddah, with products spanning processed meats, halva and maamoul."
+      },
+      "goodFor": {
+        "ar": "مدراء إنتاج/مشرفون يريدون مسؤولية أوسع وقرباً من الإدارة العليا في شركة متوسطة الحجم.",
+        "en": "Production managers/supervisors seeking broader responsibility and proximity to senior management at a mid-sized company."
+      },
+      "salary": {
+        "min": 11000,
+        "max": 17000,
+        "kind": "estimate",
+        "level": "experienced (3+ years, supervisor/manager track)"
+      },
+      "careersUrl": "https://www.bayt.com/en/company/halwani-brothers-co-307634/",
+      "linkType": "job-board",
+      "sourceId": "S3",
+      "asOf": "2026-09-06",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": "Opened in Chrome (blocks plain scripted requests)."
+      }
+    },
+    {
+      "id": "panda-retail",
+      "name": {
+        "ar": "بنده للتجزئة (Panda)",
+        "en": "Panda Retail Company"
+      },
+      "cities": [
+        "jeddah",
+        "riyadh"
+      ],
+      "sector": "retail",
+      "fields": [
+        "food-manufacturing"
+      ],
+      "typicalRoles": [
+        "Operations Manager",
+        "Fresh Food Production",
+        "Store Ops"
+      ],
+      "about": {
+        "ar": "أكبر سلسلة تجزئة غذائية في المملكة وجزء من مجموعة صافولا، بوحدات إنتاج طازج ومخابز داخلية ومراكز توزيع ضخمة.",
+        "en": "The largest food-retail chain in Saudi Arabia and part of the Savola group, with fresh-food production units, in-store bakeries and large distribution centres."
+      },
+      "goodFor": {
+        "ar": "من لديه خبرة إنتاج مطاعم/امتياز، قريبة من إدارة الإنتاج الطازج في التجزئة.",
+        "en": "Those with restaurant/franchise production experience, close to managing fresh-food production in retail."
+      },
+      "salary": {
+        "min": 12000,
+        "max": 18000,
+        "kind": "estimate",
+        "level": "experienced (3+ years, supervisor/manager track)"
+      },
+      "careersUrl": "https://careers.panda.com.sa/",
+      "linkType": "careers-portal",
+      "sourceId": "S3",
+      "asOf": "2026-09-06",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": ""
+      }
+    },
+    {
+      "id": "nadec",
+      "name": {
+        "ar": "نادك (NADEC)",
+        "en": "NADEC"
+      },
+      "cities": [
+        "riyadh",
+        "al-kharj"
+      ],
+      "sector": "food-manufacturing",
+      "fields": [
+        "food-manufacturing"
+      ],
+      "typicalRoles": [
+        "Production Manager",
+        "Manufacturing Operations"
+      ],
+      "about": {
+        "ar": "ثاني أكبر شركة ألبان وأغذية في المملكة، مملوكة جزئياً لصندوق الاستثمارات العامة، وتمر بمرحلة تحديث واسعة لمصانعها وأنظمتها.",
+        "en": "The second-largest dairy and food company in Saudi Arabia, partly owned by the Public Investment Fund, undergoing a wide modernisation of its factories and systems."
+      },
+      "goodFor": {
+        "ar": "من بنى أنظمة تتبع أو تحسين عمليات من الصفر، لا من يشغّلها فقط.",
+        "en": "Those who have built tracking or process-improvement systems from scratch, not only operated existing ones."
+      },
+      "salary": {
+        "min": 13000,
+        "max": 20000,
+        "kind": "estimate",
+        "level": "experienced (3+ years, supervisor/manager track)"
+      },
+      "careersUrl": "https://www.linkedin.com/company/nadec/jobs/",
+      "linkType": "linkedin-jobs",
+      "sourceId": "S3",
+      "asOf": "2026-09-06",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": ""
+      }
+    },
+    {
+      "id": "herfy",
+      "name": {
+        "ar": "هرفي للخدمات الغذائية",
+        "en": "Herfy Food Services"
+      },
+      "cities": [
+        "riyadh"
+      ],
+      "sector": "food-manufacturing",
+      "fields": [
+        "food-manufacturing"
+      ],
+      "typicalRoles": [
+        "Production",
+        "Central Kitchen",
+        "Area Operations"
+      ],
+      "about": {
+        "ar": "أكبر سلسلة مطاعم سعودية مدرجة، ولديها مصنع مخبوزات ولحوم ومطبخ مركزي يغذي مئات الفروع.",
+        "en": "The largest listed Saudi restaurant chain, with a bakery and meat factory and a central kitchen supplying hundreds of branches."
+      },
+      "goodFor": {
+        "ar": "من يريد جسراً بين خبرة المطاعم وخبرة التصنيع الغذائي الثقيل.",
+        "en": "Those wanting a bridge between restaurant experience and heavier food manufacturing."
+      },
+      "salary": {
+        "min": 12000,
+        "max": 18000,
+        "kind": "estimate",
+        "level": "experienced (3+ years, supervisor/manager track)"
+      },
+      "careersUrl": "https://herfy.com/careers/",
+      "linkType": "careers-portal",
+      "sourceId": "S3",
+      "asOf": "2026-09-06",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": ""
+      }
+    },
+    {
+      "id": "al-munajem-foods",
+      "name": {
+        "ar": "المنجم للأغذية",
+        "en": "Al Munajem Foods"
+      },
+      "cities": [
+        "riyadh"
+      ],
+      "sector": "food-manufacturing",
+      "fields": [
+        "food-manufacturing"
+      ],
+      "typicalRoles": [
+        "Operations",
+        "Supply Chain",
+        "Quality"
+      ],
+      "about": {
+        "ar": "من أكبر موزعي ومصنّعي الأغذية المجمدة والدواجن في المملكة، وشركة مدرجة تخدم قطاع المطاعم والفنادق بشكل أساسي.",
+        "en": "One of Saudi Arabia's largest frozen-food and poultry distributors/manufacturers, a listed company primarily serving restaurants and hotels."
+      },
+      "goodFor": {
+        "ar": "من يفهم قطاع المطاعم من الداخل كعميل سابق أو كمزوّد.",
+        "en": "Those who understand the restaurant sector from the inside, as a former customer or supplier."
+      },
+      "salary": {
+        "min": 12000,
+        "max": 18000,
+        "kind": "estimate",
+        "level": "experienced (3+ years, supervisor/manager track)"
+      },
+      "careersUrl": "https://almunajemfoods.com/ar/careers/",
+      "linkType": "careers-portal",
+      "sourceId": "S3",
+      "asOf": "2026-09-06",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": "Opened in Chrome (blocks plain scripted requests)."
+      }
+    },
+    {
+      "id": "nestle-saudi",
+      "name": {
+        "ar": "نستله السعودية",
+        "en": "Nestlé Saudi Arabia"
+      },
+      "cities": [
+        "jeddah",
+        "riyadh"
+      ],
+      "sector": "food-manufacturing",
+      "fields": [
+        "food-manufacturing"
+      ],
+      "typicalRoles": [
+        "Production Supervisor/Manager",
+        "Continuous Improvement",
+        "Quality"
+      ],
+      "about": {
+        "ar": "شركة عالمية تدير مصانع في السعودية بمعايير عالمية في السلامة والجودة والتحسين المستمر، ورواتبها ومزاياها من الأعلى في قطاع الأغذية.",
+        "en": "A global company operating factories in Saudi Arabia to international safety, quality and continuous-improvement standards, with pay and benefits among the highest in food manufacturing."
+      },
+      "goodFor": {
+        "ar": "من يملك منهجيات Lean وSix Sigma (يفضَّل شهادة Green Belt) وإنجليزية قوية.",
+        "en": "Those with Lean/Six Sigma methodology (a Green Belt certificate is preferred) and strong English."
+      },
+      "salary": {
+        "min": 15000,
+        "max": 25000,
+        "kind": "estimate",
+        "level": "experienced (3+ years, supervisor/manager track)"
+      },
+      "careersUrl": "https://www.nestle.com/jobs/search-jobs?keyword=&country=SA&location=&career_area=All",
+      "linkType": "careers-portal",
+      "sourceId": "S3",
+      "asOf": "2026-09-06",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": null,
+        "status": 403,
+        "note": "Blocks automated checks (HTTP 403); open it in a browser."
+      }
+    },
+    {
+      "id": "sfda",
+      "name": {
+        "ar": "الهيئة العامة للغذاء والدواء",
+        "en": "Saudi Food and Drug Authority (SFDA)"
+      },
+      "cities": [
+        "riyadh"
+      ],
+      "sector": "government-semigov",
+      "fields": [
+        "food-manufacturing",
+        "general"
+      ],
+      "typicalRoles": [
+        "Food Safety Specialist",
+        "Facility Inspector"
+      ],
+      "about": {
+        "ar": "الجهة المنظّمة لقطاع الغذاء في المملكة، تطرح شواغرها لحملة البكالوريوس عبر منصة جدارات، وهي مسار حكومي مستقر.",
+        "en": "The regulator of the food sector in Saudi Arabia, posting its bachelor's-level vacancies via the Jadarat platform; a stable government track."
+      },
+      "goodFor": {
+        "ar": "من لديه خلفية سلامة غذاء/جودة (مثل OSHA وإدارة الجودة الشاملة) وخبرة داخل منشأة غذائية.",
+        "en": "Those with a food-safety/quality background (e.g. OSHA, TQM) and experience inside a food facility."
+      },
+      "salary": {
+        "min": 10000,
+        "max": 15000,
+        "kind": "estimate",
+        "level": "experienced (3+ years)"
+      },
+      "careersUrl": "https://jadarat.sa/",
+      "linkType": "job-board",
+      "sourceId": "S3",
+      "asOf": "2026-09-06",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": "Opened in Chrome (blocks plain scripted requests)."
+      },
+      "replacedLink": "https://www.jadarat.sa/"
+    },
+    {
+      "id": "mozn",
+      "name": {
+        "ar": "مِزن (Mozn)",
+        "en": "Mozn"
+      },
+      "cities": [
+        "riyadh"
+      ],
+      "sector": "technology-software",
+      "fields": [
+        "software-ai"
+      ],
+      "typicalRoles": [
+        "AI/ML Engineer",
+        "Data Scientist"
+      ],
+      "about": {
+        "ar": "أبرز شركة ذكاء اصطناعي سعودية، منتجها Focal لمكافحة الاحتيال والامتثال، ولديها فريق أبحاث لغة عربية.",
+        "en": "A leading Saudi AI company; its Focal product targets fraud and compliance, and it has an Arabic-language research team."
+      },
+      "goodFor": {
+        "ar": "خريجو ذكاء اصطناعي/برمجة بمشاريع وكلاء متعددين أو معالجة لغة طبيعية.",
+        "en": "AI/software graduates with multi-agent or NLP project experience."
+      },
+      "salary": {
+        "min": 10000,
+        "max": 15000,
+        "kind": "estimate",
+        "level": "fresh graduate"
+      },
+      "careersUrl": "https://www.mozn.ai/careers",
+      "linkType": "careers-portal",
+      "sourceId": "S4",
+      "asOf": "2026-09-04",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": ""
+      }
+    },
+    {
+      "id": "sdaia",
+      "name": {
+        "ar": "سدايا (SDAIA)",
+        "en": "SDAIA"
+      },
+      "cities": [
+        "riyadh"
+      ],
+      "sector": "government-semigov",
+      "fields": [
+        "software-ai"
+      ],
+      "typicalRoles": [
+        "AI Engineer",
+        "Data Specialist"
+      ],
+      "about": {
+        "ar": "الهيئة السعودية للبيانات والذكاء الاصطناعي، الجهة المنظّمة والمشغّلة لأكبر مشاريع البيانات الوطنية، تطرح شواغرها التقنية عبر جدارات.",
+        "en": "The Saudi Data and AI Authority, the regulator and operator of the largest national data projects, posting its technical vacancies via Jadarat."
+      },
+      "goodFor": {
+        "ar": "خريجو علوم حاسب/ذكاء اصطناعي بمعدل تنافسي.",
+        "en": "CS/AI graduates with a competitive GPA."
+      },
+      "salary": {
+        "min": 10000,
+        "max": 15000,
+        "kind": "estimate",
+        "level": "fresh graduate"
+      },
+      "careersUrl": "https://sdaia.gov.sa/ar/Contact/Pages/JoinUs.aspx",
+      "linkType": "careers-portal",
+      "sourceId": "S4",
+      "asOf": "2026-09-04",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": ""
+      }
+    },
+    {
+      "id": "unifonic",
+      "name": {
+        "ar": "يونيفونك (Unifonic)",
+        "en": "Unifonic"
+      },
+      "cities": [
+        "riyadh"
+      ],
+      "sector": "technology-software",
+      "fields": [
+        "software-ai"
+      ],
+      "typicalRoles": [
+        "Customer Solutions Consultant",
+        "Technical roles"
+      ],
+      "about": {
+        "ar": "منصة اتصالات سحابية (CPaaS) سعودية تعمل إقليمياً: رسائل، صوت، روبوتات محادثة، وواجهات برمجية.",
+        "en": "A Saudi cloud communications platform (CPaaS) operating regionally: messaging, voice, chatbots and APIs."
+      },
+      "goodFor": {
+        "ar": "خريجو برمجة بخبرة في Webhooks وواجهات REST.",
+        "en": "Software graduates with experience in webhooks and REST APIs."
+      },
+      "salary": {
+        "min": 10000,
+        "max": 15000,
+        "kind": "estimate",
+        "level": "fresh graduate"
+      },
+      "careersUrl": "https://jobs.unifonic.com/",
+      "linkType": "careers-portal",
+      "sourceId": "S4",
+      "asOf": "2026-09-04",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": ""
+      }
+    },
+    {
+      "id": "tamara",
+      "name": {
+        "ar": "تمارا (Tamara)",
+        "en": "Tamara"
+      },
+      "cities": [
+        "riyadh"
+      ],
+      "sector": "technology-software",
+      "fields": [
+        "software-ai"
+      ],
+      "typicalRoles": [
+        "Software Engineer",
+        "Data/Risk Analyst"
+      ],
+      "about": {
+        "ar": "أبرز شركة تقنية مالية سعودية (اشترِ الآن وادفع لاحقاً) وأحد أشهر «اليونيكورن» في المنطقة.",
+        "en": "A leading Saudi fintech (buy-now-pay-later) and one of the region's best-known unicorns."
+      },
+      "goodFor": {
+        "ar": "خريجو هندسة برمجيات أو تحليل بيانات/مخاطر بإنجليزية عمل جيدة.",
+        "en": "Software engineering or data/risk analysis graduates with good working English."
+      },
+      "salary": {
+        "min": 10000,
+        "max": 15000,
+        "kind": "estimate",
+        "level": "fresh graduate"
+      },
+      "careersUrl": "https://tamara.co/en-sa/careers",
+      "linkType": "careers-portal",
+      "sourceId": "S4",
+      "asOf": "2026-09-04",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": ""
+      }
+    },
+    {
+      "id": "ninja",
+      "name": {
+        "ar": "نينجا (Ninja)",
+        "en": "Ninja"
+      },
+      "cities": [
+        "riyadh"
+      ],
+      "sector": "technology-software",
+      "fields": [
+        "software-ai"
+      ],
+      "typicalRoles": [
+        "Software Engineer",
+        "Data Analyst"
+      ],
+      "about": {
+        "ar": "تطبيق التوصيل السريع الأسرع نمواً في السعودية، ببيئة عمل شابة تتحرك بسرعة.",
+        "en": "Saudi Arabia's fastest-growing quick-delivery app, with a young, fast-moving work environment."
+      },
+      "goodFor": {
+        "ar": "خريجون جدد لفرق المنتج والبيانات.",
+        "en": "Fresh graduates for product and data teams."
+      },
+      "salary": {
+        "min": 9000,
+        "max": 13000,
+        "kind": "estimate",
+        "level": "fresh graduate"
+      },
+      "careersUrl": "https://www.naukrigulf.com/ninja-jobs-in-riyadh",
+      "linkType": "job-board",
+      "sourceId": "S4",
+      "asOf": "2026-09-04",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": ""
+      }
+    },
+    {
+      "id": "lean",
+      "name": {
+        "ar": "لين لخدمات الأعمال (Lean)",
+        "en": "Lean Business Services"
+      },
+      "cities": [
+        "riyadh"
+      ],
+      "sector": "government-semigov",
+      "fields": [
+        "software-ai",
+        "it-support-enterprise"
+      ],
+      "typicalRoles": [
+        "Health IT",
+        "Systems Support",
+        "Data Analysis"
+      ],
+      "about": {
+        "ar": "شركة مملوكة لصندوق الاستثمارات العامة تدير البنية الرقمية للقطاع الصحي (منصة صحتي وسجلات المرضى).",
+        "en": "A company owned by the Public Investment Fund managing the digital infrastructure of the health sector (the Sehhaty platform and patient records)."
+      },
+      "goodFor": {
+        "ar": "خريجو تقنية معلومات/تحليل بيانات يريدون استقرار القطاع شبه الحكومي.",
+        "en": "IT/data-analysis graduates seeking the stability of a semi-government sector."
+      },
+      "salary": {
+        "min": 10000,
+        "max": 14000,
+        "kind": "estimate",
+        "level": "fresh graduate"
+      },
+      "careersUrl": "https://www.naukrigulf.com/lean-jobs-in-riyadh",
+      "linkType": "job-board",
+      "sourceId": "S4",
+      "asOf": "2026-09-04",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": ""
+      }
+    },
+    {
+      "id": "foodics",
+      "name": {
+        "ar": "فودكس (Foodics)",
+        "en": "Foodics"
+      },
+      "cities": [
+        "riyadh"
+      ],
+      "sector": "technology-software",
+      "fields": [
+        "software-ai",
+        "it-support-enterprise"
+      ],
+      "typicalRoles": [
+        "Software Engineer",
+        "Technical Support Engineer"
+      ],
+      "about": {
+        "ar": "منصة نقاط بيع وإدارة مطاعم تخدم عشرات الآلاف من الفروع في المنطقة، من أوائل الشركات السعودية التي بنت ثقافة هندسية ناضجة.",
+        "en": "A restaurant point-of-sale and management platform serving tens of thousands of branches in the region; among the first Saudi companies to build a mature engineering culture."
+      },
+      "goodFor": {
+        "ar": "خريجون يريدون مساراً يبدأ بالدعم التقني ثم يتحول إلى أدوار هندسية.",
+        "en": "Graduates wanting a path that starts in technical support and moves into engineering roles."
+      },
+      "salary": {
+        "min": 9000,
+        "max": 14000,
+        "kind": "estimate",
+        "level": "fresh graduate"
+      },
+      "careersUrl": "https://www.linkedin.com/company/foodics/jobs/",
+      "linkType": "linkedin-jobs",
+      "sourceId": "S4",
+      "asOf": "2026-09-04",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": ""
+      }
+    },
+    {
+      "id": "thiqah",
+      "name": {
+        "ar": "ثقة (Thiqah)",
+        "en": "Thiqah"
+      },
+      "cities": [
+        "riyadh"
+      ],
+      "sector": "government-semigov",
+      "fields": [
+        "software-ai",
+        "it-support-enterprise"
+      ],
+      "typicalRoles": [
+        "Systems Engineer",
+        "Cybersecurity Analyst",
+        "Developer"
+      ],
+      "about": {
+        "ar": "شركة تقنية مملوكة للدولة تبني الأنظمة الحكومية والأعمال الرقمية.",
+        "en": "A state-owned technology company building government systems and digital business solutions."
+      },
+      "goodFor": {
+        "ar": "خريجو هندسة أنظمة/تطوير بخبرة تعامل مع أنظمة مؤسسية.",
+        "en": "Systems engineering/development graduates with enterprise-systems exposure."
+      },
+      "salary": {
+        "min": 9000,
+        "max": 13000,
+        "kind": "estimate",
+        "level": "fresh graduate"
+      },
+      "careersUrl": "https://sa.linkedin.com/company/thiqah-sa/jobs",
+      "linkType": "linkedin-jobs",
+      "sourceId": "S4",
+      "asOf": "2026-09-04",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": ""
+      }
+    },
+    {
+      "id": "salla",
+      "name": {
+        "ar": "سلة (Salla)",
+        "en": "Salla"
+      },
+      "cities": [
+        "jeddah"
+      ],
+      "sector": "technology-software",
+      "fields": [
+        "software-ai"
+      ],
+      "typicalRoles": [
+        "Software Engineer",
+        "QA",
+        "Data"
+      ],
+      "about": {
+        "ar": "أكبر منصة سعودية لبناء المتاجر الإلكترونية، ومقرها جدة، تخدم أكثر من 60 ألف تاجر.",
+        "en": "The largest Saudi e-commerce store-building platform, headquartered in Jeddah, serving more than 60,000 merchants."
+      },
+      "goodFor": {
+        "ar": "خريجو هندسة برمجيات/جودة/بيانات يريدون بوابة تقديم مباشرة بدون وسيط.",
+        "en": "Software engineering/QA/data graduates wanting a direct application portal with no intermediary."
+      },
+      "salary": {
+        "min": 9000,
+        "max": 14000,
+        "kind": "estimate",
+        "level": "fresh graduate"
+      },
+      "careersUrl": "https://jobs.salla.com/",
+      "linkType": "careers-portal",
+      "sourceId": "S4",
+      "asOf": "2026-09-04",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": ""
+      }
+    },
+    {
+      "id": "jahez",
+      "name": {
+        "ar": "جاهز (Jahez)",
+        "en": "Jahez"
+      },
+      "cities": [
+        "riyadh",
+        "jeddah"
+      ],
+      "sector": "technology-software",
+      "fields": [
+        "software-ai"
+      ],
+      "typicalRoles": [
+        "Software Engineer",
+        "Data Analyst",
+        "IT"
+      ],
+      "about": {
+        "ar": "أكبر تطبيق توصيل طعام سعودي ومُدرج في السوق الموازية، بفرق تقنية موزعة بين الرياض وجدة.",
+        "en": "The largest Saudi food-delivery app, listed on the parallel market, with technical teams split between Riyadh and Jeddah."
+      },
+      "goodFor": {
+        "ar": "خريجو برمجة/تحليل بيانات/تقنية معلومات.",
+        "en": "Software/data-analysis/IT graduates."
+      },
+      "salary": {
+        "min": 9000,
+        "max": 13000,
+        "kind": "estimate",
+        "level": "fresh graduate"
+      },
+      "careersUrl": "https://jahez.net/career.html",
+      "linkType": "careers-portal",
+      "sourceId": "S4",
+      "asOf": "2026-09-04",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": "Opened in Chrome (blocks plain scripted requests)."
+      }
+    },
+    {
+      "id": "isdb",
+      "name": {
+        "ar": "البنك الإسلامي للتنمية (IsDB)",
+        "en": "Islamic Development Bank (IsDB)"
+      },
+      "cities": [
+        "jeddah"
+      ],
+      "sector": "banking-finance",
+      "fields": [
+        "software-ai",
+        "it-support-enterprise",
+        "general"
+      ],
+      "typicalRoles": [
+        "Young Professionals Program",
+        "IT Officer"
+      ],
+      "about": {
+        "ar": "بنك تنموي دولي مقره جدة، برواتب معفاة من الضريبة ومنافسة عالمياً، وبرنامج المهنيين الشباب يفتح سنوياً.",
+        "en": "An international development bank headquartered in Jeddah, with tax-exempt, globally competitive pay, and an annual Young Professionals Program."
+      },
+      "goodFor": {
+        "ar": "خريجو تقنية معلومات/علوم بيانات بإنجليزية قوية.",
+        "en": "IT/data-science graduates with strong English."
+      },
+      "salary": {
+        "min": 15000,
+        "max": 25000,
+        "kind": "estimate",
+        "level": "fresh graduate"
+      },
+      "careersUrl": "https://www.gulftalent.com/companies/islamic-development-bank-isdb-careers",
+      "linkType": "job-board",
+      "sourceId": "S4",
+      "asOf": "2026-09-04",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": null,
+        "status": 403,
+        "note": "Blocks automated checks (HTTP 403); open it in a browser."
+      }
+    },
+    {
+      "id": "kaust",
+      "name": {
+        "ar": "جامعة الملك عبدالله للعلوم والتقنية (كاوست)",
+        "en": "King Abdullah University of Science and Technology (KAUST)"
+      },
+      "cities": [
+        "thuwal"
+      ],
+      "sector": "research-education",
+      "fields": [
+        "software-ai",
+        "general"
+      ],
+      "typicalRoles": [
+        "Research Engineer",
+        "IT Specialist",
+        "Funded Master's"
+      ],
+      "about": {
+        "ar": "أقوى مركز أبحاث ذكاء اصطناعي في المملكة، يقع في ثول شمال جدة، يوفّر وظائف بحثية ودعم تقني، ومنحاً ممولة للماجستير.",
+        "en": "Saudi Arabia's leading AI research centre, located in Thuwal north of Jeddah, offering research and IT-support roles as well as fully funded master's scholarships."
+      },
+      "goodFor": {
+        "ar": "من لديه ملف بحثي أو مشاريع ذكاء اصطناعي موثقة.",
+        "en": "Those with a research profile or documented AI projects."
+      },
+      "salary": {
+        "min": 12000,
+        "max": 18000,
+        "kind": "estimate",
+        "level": "fresh graduate"
+      },
+      "careersUrl": "https://www.kaust.edu.sa/en/about/search-for-jobs",
+      "linkType": "careers-portal",
+      "sourceId": "S4",
+      "asOf": "2026-09-04",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": ""
+      }
+    }
+  ],
+  "salaryTable": [
+    {
+      "id": "mech-oil-petrochem",
+      "field": "mechanical-aerospace",
+      "segment": {
+        "ar": "النفط والبتروكيماويات (أرامكو، سابك)",
+        "en": "Oil & petrochemicals (Aramco, SABIC)"
+      },
+      "start": {
+        "min": 15000,
+        "max": 20000
+      },
+      "later": {
+        "min": 20000,
+        "max": 28000,
+        "afterYears": 3
+      },
+      "note": {
+        "ar": "سكن وبدلات ومكافأة سنوية",
+        "en": "Housing, allowances and an annual bonus"
+      },
+      "kind": "estimate",
+      "sourceId": "S1",
+      "asOf": "2026-08-31"
+    },
+    {
+      "id": "mech-mining-energy",
+      "field": "mechanical-aerospace",
+      "segment": {
+        "ar": "التعدين والطاقة (معادن، أكوا باور)",
+        "en": "Mining & energy (Ma'aden, ACWA Power)"
+      },
+      "start": {
+        "min": 11000,
+        "max": 17000
+      },
+      "later": {
+        "min": 17000,
+        "max": 23000,
+        "afterYears": 3
+      },
+      "note": {
+        "ar": "بدل مواقع نائية إضافي",
+        "en": "Extra remote-site allowance"
+      },
+      "kind": "estimate",
+      "sourceId": "S1",
+      "asOf": "2026-08-31"
+    },
+    {
+      "id": "mech-defense-foreign",
+      "field": "mechanical-aerospace",
+      "segment": {
+        "ar": "الدفاع والشركات الأجنبية (SAMI، بوينغ)",
+        "en": "Defence & foreign firms (SAMI, Boeing)"
+      },
+      "start": {
+        "min": 10000,
+        "max": 18000
+      },
+      "later": {
+        "min": 16000,
+        "max": 25000,
+        "afterYears": 3
+      },
+      "note": {
+        "ar": "يشترط إنجليزية قوية",
+        "en": "Requires strong English"
+      },
+      "kind": "estimate",
+      "sourceId": "S1",
+      "asOf": "2026-08-31"
+    },
+    {
+      "id": "mech-mro",
+      "field": "mechanical-aerospace",
+      "segment": {
+        "ar": "صيانة الطائرات — MRO (MEPC، السلام، السعودية الفنية)",
+        "en": "Aircraft MRO (MEPC, Alsalam, Saudia Technic)"
+      },
+      "start": {
+        "min": 8000,
+        "max": 14000
+      },
+      "later": {
+        "min": 14000,
+        "max": 20000,
+        "afterYears": 3
+      },
+      "note": {
+        "ar": "يقفز كثيراً مع رخصة EASA/GACA",
+        "en": "Jumps significantly with an EASA/GACA maintenance licence"
+      },
+      "kind": "estimate",
+      "sourceId": "S1",
+      "asOf": "2026-08-31"
+    },
+    {
+      "id": "mech-airline-planning",
+      "field": "mechanical-aerospace",
+      "segment": {
+        "ar": "شركات الطيران — التخطيط والهندسة",
+        "en": "Airlines — planning & engineering"
+      },
+      "start": {
+        "min": 9000,
+        "max": 16000
+      },
+      "later": {
+        "min": 15000,
+        "max": 22000,
+        "afterYears": 3
+      },
+      "note": {
+        "ar": "مزايا سفر ممتازة",
+        "en": "Excellent travel benefits"
+      },
+      "kind": "estimate",
+      "sourceId": "S1",
+      "asOf": "2026-08-31"
+    },
+    {
+      "id": "mech-manufacturing-heavy",
+      "field": "mechanical-aerospace",
+      "segment": {
+        "ar": "التصنيع والمعدات الثقيلة (المراعي، زاهد)",
+        "en": "Manufacturing & heavy equipment (Almarai, Zahid)"
+      },
+      "start": {
+        "min": 8000,
+        "max": 13000
+      },
+      "later": {
+        "min": 13000,
+        "max": 18000,
+        "afterYears": 3
+      },
+      "note": {
+        "ar": "أعلى فرص قبول لحديثي التخرج",
+        "en": "The highest acceptance rate for fresh graduates"
+      },
+      "kind": "estimate",
+      "sourceId": "S1",
+      "asOf": "2026-08-31"
+    },
+    {
+      "id": "tamheer-stipend",
+      "field": "general",
+      "segment": {
+        "ar": "تدريب تمهير",
+        "en": "Tamheer on-the-job training"
+      },
+      "start": {
+        "min": 3000,
+        "max": 3000
+      },
+      "later": null,
+      "note": {
+        "ar": "مؤقت (3-6 أشهر)، وبوابة نحو التوظيف الدائم",
+        "en": "Temporary (3-6 months), and a gateway to permanent employment"
+      },
+      "kind": "official",
+      "sourceId": "S9",
+      "asOf": "2026-09-27"
+    },
+    {
+      "id": "net-it-support-servicedesk",
+      "field": "networking-security",
+      "segment": {
+        "ar": "الدعم التقني · Service Desk",
+        "en": "IT support · Service Desk"
+      },
+      "start": {
+        "min": 6000,
+        "max": 9000
+      },
+      "later": {
+        "min": 9000,
+        "max": 13000,
+        "afterYears": 3
+      },
+      "note": {
+        "ar": "أسهل باب دخول وأسرع توظيف",
+        "en": "The easiest entry point and fastest hiring"
+      },
+      "kind": "estimate",
+      "sourceId": "S2",
+      "asOf": "2026-09-05"
+    },
+    {
+      "id": "net-noc",
+      "field": "networking-security",
+      "segment": {
+        "ar": "مهندس شبكات · NOC",
+        "en": "Network Engineer · NOC"
+      },
+      "start": {
+        "min": 7000,
+        "max": 12000
+      },
+      "later": {
+        "min": 12000,
+        "max": 18000,
+        "afterYears": 3
+      },
+      "note": {
+        "ar": "شهادة CCNP تضاعف العروض تقريباً",
+        "en": "A CCNP certificate roughly doubles offers"
+      },
+      "kind": "estimate",
+      "sourceId": "S2",
+      "asOf": "2026-09-05"
+    },
+    {
+      "id": "net-soc-l1",
+      "field": "networking-security",
+      "segment": {
+        "ar": "محلل أمن سيبراني — SOC L1",
+        "en": "Cybersecurity analyst — SOC L1"
+      },
+      "start": {
+        "min": 8000,
+        "max": 14000
+      },
+      "later": {
+        "min": 14000,
+        "max": 22000,
+        "afterYears": 3
+      },
+      "note": {
+        "ar": "المسار: Security+ ثم CEH ثم OSCP",
+        "en": "Path: Security+, then CEH, then OSCP"
+      },
+      "kind": "estimate",
+      "sourceId": "S2",
+      "asOf": "2026-09-05"
+    },
+    {
+      "id": "net-datacenter-tech",
+      "field": "networking-security",
+      "segment": {
+        "ar": "فني مركز بيانات",
+        "en": "Data centre technician"
+      },
+      "start": {
+        "min": 8000,
+        "max": 13000
+      },
+      "later": {
+        "min": 13000,
+        "max": 18000,
+        "afterYears": 3
+      },
+      "note": {
+        "ar": "قطاع ينمو أسرع من عرض الكفاءات",
+        "en": "A sector growing faster than the talent supply"
+      },
+      "kind": "estimate",
+      "sourceId": "S2",
+      "asOf": "2026-09-05"
+    },
+    {
+      "id": "net-telecom-major",
+      "field": "networking-security",
+      "segment": {
+        "ar": "الاتصالات الكبرى (stc، موبايلي، زين)",
+        "en": "Major telecoms (stc, Mobily, Zain)"
+      },
+      "start": {
+        "min": 9000,
+        "max": 15000
+      },
+      "later": {
+        "min": 15000,
+        "max": 22000,
+        "afterYears": 3
+      },
+      "note": {
+        "ar": "برامج خريجين ومزايا واسعة",
+        "en": "Structured graduate programmes and broad benefits"
+      },
+      "kind": "estimate",
+      "sourceId": "S2",
+      "asOf": "2026-09-05"
+    },
+    {
+      "id": "net-foreign-tech",
+      "field": "networking-security",
+      "segment": {
+        "ar": "الشركات الأجنبية (تاليس، سيسكو، هواوي)",
+        "en": "Foreign firms (Thales, Cisco, Huawei)"
+      },
+      "start": {
+        "min": 10000,
+        "max": 16000
+      },
+      "later": {
+        "min": 16000,
+        "max": 25000,
+        "afterYears": 3
+      },
+      "note": {
+        "ar": "تشترط إنجليزية قوية",
+        "en": "Requires strong English"
+      },
+      "kind": "estimate",
+      "sourceId": "S2",
+      "asOf": "2026-09-05"
+    },
+    {
+      "id": "net-it-project-coord",
+      "field": "networking-security",
+      "segment": {
+        "ar": "تنسيق مشاريع تقنية",
+        "en": "IT project coordination"
+      },
+      "start": {
+        "min": 9000,
+        "max": 14000
+      },
+      "later": {
+        "min": 14000,
+        "max": 20000,
+        "afterYears": 3
+      },
+      "note": {
+        "ar": "شهادة إدارة مشاريع مطلوبة",
+        "en": "A project-management certificate is required"
+      },
+      "kind": "estimate",
+      "sourceId": "S2",
+      "asOf": "2026-09-05"
+    },
+    {
+      "id": "food-production-supervisor",
+      "field": "food-manufacturing",
+      "segment": {
+        "ar": "مشرف إنتاج",
+        "en": "Production Supervisor"
+      },
+      "start": {
+        "min": 8000,
+        "max": 12000
+      },
+      "later": {
+        "min": 12000,
+        "max": 15000,
+        "laterBasis": "large/major companies, not years of experience"
+      },
+      "note": {
+        "ar": "المستوى الأولي في مسار الإنتاج",
+        "en": "The entry level of the production track"
+      },
+      "kind": "estimate",
+      "sourceId": "S3",
+      "asOf": "2026-09-06"
+    },
+    {
+      "id": "food-production-manager",
+      "field": "food-manufacturing",
+      "segment": {
+        "ar": "مدير إنتاج",
+        "en": "Production Manager"
+      },
+      "start": {
+        "min": 12000,
+        "max": 18000
+      },
+      "later": {
+        "min": 18000,
+        "max": 25000,
+        "laterBasis": "large/major companies, not years of experience"
+      },
+      "note": {
+        "ar": "نطاق تفاوض للمستوى الإداري المتوسط",
+        "en": "A negotiation range for the mid-management level"
+      },
+      "kind": "estimate",
+      "sourceId": "S3",
+      "asOf": "2026-09-06"
+    },
+    {
+      "id": "food-production-planning-manager",
+      "field": "food-manufacturing",
+      "segment": {
+        "ar": "مدير تخطيط الإنتاج",
+        "en": "Production Planning Manager"
+      },
+      "start": {
+        "min": 13000,
+        "max": 19000
+      },
+      "later": {
+        "min": 19000,
+        "max": 26000,
+        "laterBasis": "large/major companies, not years of experience"
+      },
+      "note": {
+        "ar": "أعلى من الإنتاج التنفيذي عادةً",
+        "en": "Usually higher than hands-on production roles"
+      },
+      "kind": "estimate",
+      "sourceId": "S3",
+      "asOf": "2026-09-06"
+    },
+    {
+      "id": "food-operations-manager",
+      "field": "food-manufacturing",
+      "segment": {
+        "ar": "مدير عمليات",
+        "en": "Operations Manager"
+      },
+      "start": {
+        "min": 15000,
+        "max": 22000
+      },
+      "later": {
+        "min": 22000,
+        "max": 32000,
+        "laterBasis": "large/major companies, not years of experience"
+      },
+      "note": {
+        "ar": "الخطوة التالية المعتادة بعد إدارة الإنتاج",
+        "en": "The usual next step after production management"
+      },
+      "kind": "estimate",
+      "sourceId": "S3",
+      "asOf": "2026-09-06"
+    },
+    {
+      "id": "food-plant-manager",
+      "field": "food-manufacturing",
+      "segment": {
+        "ar": "مدير مصنع",
+        "en": "Plant Manager"
+      },
+      "start": {
+        "min": 20000,
+        "max": 30000
+      },
+      "later": {
+        "min": 30000,
+        "max": 45000,
+        "laterBasis": "large/major companies, not years of experience"
+      },
+      "note": {
+        "ar": "يتطلب 7 سنوات خبرة فأكثر",
+        "en": "Requires 7+ years of experience"
+      },
+      "kind": "estimate",
+      "sourceId": "S3",
+      "asOf": "2026-09-06"
+    },
+    {
+      "id": "food-supply-chain-inventory-manager",
+      "field": "food-manufacturing",
+      "segment": {
+        "ar": "مدير سلسلة إمداد ومخزون",
+        "en": "Supply Chain & Inventory Manager"
+      },
+      "start": {
+        "min": 14000,
+        "max": 20000
+      },
+      "later": {
+        "min": 20000,
+        "max": 28000,
+        "laterBasis": "large/major companies, not years of experience"
+      },
+      "note": {
+        "ar": "شهادة CPIM ترفعه بوضوح",
+        "en": "A CPIM certificate clearly raises it"
+      },
+      "kind": "estimate",
+      "sourceId": "S3",
+      "asOf": "2026-09-06"
+    },
+    {
+      "id": "food-erp-manufacturing-analyst",
+      "field": "food-manufacturing",
+      "segment": {
+        "ar": "محلل أنظمة ERP للتصنيع",
+        "en": "Manufacturing ERP/Business Systems Analyst"
+      },
+      "start": {
+        "min": 12000,
+        "max": 18000
+      },
+      "later": {
+        "min": 18000,
+        "max": 25000,
+        "laterBasis": "large/major companies, not years of experience"
+      },
+      "note": {
+        "ar": "يستفيد من خلفية نظم المعلومات",
+        "en": "Benefits from an information-systems background"
+      },
+      "kind": "estimate",
+      "sourceId": "S3",
+      "asOf": "2026-09-06"
+    },
+    {
+      "id": "tech-oil-petrochem",
+      "field": "software-ai",
+      "segment": {
+        "ar": "شركات النفط والبتروكيماويات (أرامكو، سابك) — مسار تقني",
+        "en": "Oil & petrochemicals (Aramco, SABIC) — tech track"
+      },
+      "start": {
+        "min": 15000,
+        "max": 20000
+      },
+      "later": {
+        "min": 20000,
+        "max": 26000,
+        "afterYears": 2
+      },
+      "note": {
+        "ar": "مع سكن وبدلات ومكافأة سنوية",
+        "en": "With housing, allowances and an annual bonus"
+      },
+      "kind": "estimate",
+      "sourceId": "S4",
+      "asOf": "2026-09-04"
+    },
+    {
+      "id": "tech-telecom-banks",
+      "field": "software-ai",
+      "segment": {
+        "ar": "الاتصالات والبنوك (stc، الراجحي، الإنماء)",
+        "en": "Telecoms & banks (stc, Al Rajhi, Alinma)"
+      },
+      "start": {
+        "min": 12000,
+        "max": 16000
+      },
+      "later": {
+        "min": 16000,
+        "max": 22000,
+        "afterYears": 2
+      },
+      "note": {
+        "ar": "برامج خريجين منظمة",
+        "en": "Structured graduate programmes"
+      },
+      "kind": "estimate",
+      "sourceId": "S4",
+      "asOf": "2026-09-04"
+    },
+    {
+      "id": "tech-semigov",
+      "field": "software-ai",
+      "segment": {
+        "ar": "الجهات شبه الحكومية التقنية (علم، سدايا، لين)",
+        "en": "Semi-government tech bodies (Elm, SDAIA, Lean)"
+      },
+      "start": {
+        "min": 10000,
+        "max": 15000
+      },
+      "later": {
+        "min": 14000,
+        "max": 20000,
+        "afterYears": 2
+      },
+      "note": {
+        "ar": "استقرار عالٍ وساعات معقولة",
+        "en": "High stability and reasonable hours"
+      },
+      "kind": "estimate",
+      "sourceId": "S4",
+      "asOf": "2026-09-04"
+    },
+    {
+      "id": "tech-startups",
+      "field": "software-ai",
+      "segment": {
+        "ar": "الشركات الناشئة التقنية (سلة، نينجا، فودكس)",
+        "en": "Tech startups (Salla, Ninja, Foodics)"
+      },
+      "start": {
+        "min": 9000,
+        "max": 14000
+      },
+      "later": {
+        "min": 14000,
+        "max": 20000,
+        "afterYears": 2
+      },
+      "note": {
+        "ar": "نمو أسرع ومسؤولية مبكرة",
+        "en": "Faster growth and earlier responsibility"
+      },
+      "kind": "estimate",
+      "sourceId": "S4",
+      "asOf": "2026-09-04"
+    },
+    {
+      "id": "tech-it-support-sysadmin",
+      "field": "it-support-enterprise",
+      "segment": {
+        "ar": "الدعم التقني وإدارة الأنظمة",
+        "en": "IT support & systems administration"
+      },
+      "start": {
+        "min": 7000,
+        "max": 11000
+      },
+      "later": {
+        "min": 11000,
+        "max": 15000,
+        "afterYears": 2
+      },
+      "note": {
+        "ar": "أسهل باب دخول بخبرة تقنية مؤسسية",
+        "en": "The easiest entry point with enterprise IT experience"
+      },
+      "kind": "estimate",
+      "sourceId": "S4",
+      "asOf": "2026-09-04"
+    },
+    {
+      "id": "tech-specialized-ai",
+      "field": "software-ai",
+      "segment": {
+        "ar": "أدوار الذكاء الاصطناعي المتخصصة",
+        "en": "Specialised AI roles"
+      },
+      "start": {
+        "min": 12000,
+        "max": 18000
+      },
+      "later": {
+        "min": 18000,
+        "max": 28000,
+        "afterYears": 2
+      },
+      "note": {
+        "ar": "الطلب أعلى بكثير من المعروض",
+        "en": "Demand far exceeds supply"
+      },
+      "kind": "estimate",
+      "sourceId": "S4",
+      "asOf": "2026-09-04"
+    }
+  ],
+  "programs": [
+    {
+      "id": "tamheer-hrdf",
+      "name": {
+        "ar": "برنامج تمهير",
+        "en": "Tamheer Program"
+      },
+      "provider": "صندوق تنمية الموارد البشرية (هدف) / Human Resources Development Fund (HRDF)",
+      "fields": [
+        "all"
+      ],
+      "requirements": {
+        "ar": "سعودي الجنسية، حاصل على دبلوم (سنة أكاديمية على الأقل) أو بكالوريوس، غير موظف حالياً في القطاع العام أو الخاص، لا يتجاوز عمره 30 عاماً، بخبرة عمل لا تزيد عن سنة، وغير مسجل في التأمينات الاجتماعية (GOSI) أثناء فترة التدريب - التسجيل في GOSI خلال البرنامج يؤدي إلى الاستبعاد التلقائي.",
+        "en": "Saudi national, holding a diploma (at least one academic year) or bachelor's degree, not currently employed in the public or private sector, no more than 30 years old, no more than one year of work experience, and not registered in GOSI social insurance during training - enrolling in GOSI during the programme results in automatic exclusion."
+      },
+      "deadline": null,
+      "stipendOrSalary": {
+        "min": 3000,
+        "max": 3000,
+        "kind": "official"
+      },
+      "url": "https://www.taqat.sa/",
+      "linkType": "program-page",
+      "sourceId": "S9",
+      "asOf": "2026-09-27",
+      "verified": true,
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": ""
+      }
+    },
+    {
+      "id": "aramco-graduate-programs",
+      "name": {
+        "ar": "برامج خريجي أرامكو (الهندسة، والحوسبة وتقنية المعلومات)",
+        "en": "Aramco Graduate Programs (Engineering; Computing & IT)"
+      },
+      "provider": "أرامكو السعودية / Saudi Aramco",
+      "fields": [
+        "mechanical-aerospace",
+        "software-ai",
+        "it-support-enterprise"
+      ],
+      "requirements": {
+        "ar": "معدل تراكمي 2.0 من 4 فأعلى للتخصصات الفنية (هندسة، علوم حاسب، تقنية معلومات، ومجالات أخرى)، وخبرة عمل أقل من 3 سنوات. المهندسون يحتاجون للتسجيل في الهيئة السعودية للمهندسين.",
+        "en": "GPA 2.0/4 or higher for technical majors (engineering, computer science, IT and others), and less than 3 years of work experience. Engineers need to register with the Saudi Council of Engineers."
+      },
+      "deadline": "2026-12-31",
+      "stipendOrSalary": {
+        "min": 15000,
+        "max": 20000,
+        "kind": "estimate"
+      },
+      "url": "https://www.aramco.com/en/careers/for-saudi-applicants/career-opportunities/graduate-applicant-opportunities",
+      "linkType": "program-page",
+      "sourceId": "S4",
+      "asOf": "2026-09-04",
+      "verified": false,
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": ""
+      }
+    },
+    {
+      "id": "stc-tip",
+      "name": {
+        "ar": "برنامج احتضان المواهب - stc (TIP)",
+        "en": "stc Talent Incubation Program (TIP)"
+      },
+      "provider": "stc",
+      "fields": [
+        "software-ai",
+        "it-support-enterprise",
+        "networking-security"
+      ],
+      "requirements": {
+        "ar": "سعودي الجنسية، خبرة أقل من سنة، معدل تراكمي 3.2 من 4 فأعلى، وإثبات لغة إنجليزية (آيلتس 5 أو STEP 85).",
+        "en": "Saudi national, less than 1 year of experience, GPA 3.2/4 or higher, and English proof (IELTS 5 or STEP 85)."
+      },
+      "deadline": null,
+      "stipendOrSalary": {
+        "min": 12000,
+        "max": 16000,
+        "kind": "estimate"
+      },
+      "url": "https://careers.stc.com.sa/content/Talent-Incubation-Program/?locale=en_US",
+      "linkType": "program-page",
+      "sourceId": "S4",
+      "asOf": "2026-09-04",
+      "verified": true,
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": ""
+      }
+    },
+    {
+      "id": "pif-graduate-development-program",
+      "name": {
+        "ar": "برنامج تطوير خريجي صندوق الاستثمارات العامة",
+        "en": "PIF Graduate Development Program"
+      },
+      "provider": "صندوق الاستثمارات العامة / Public Investment Fund (PIF)",
+      "fields": [
+        "software-ai",
+        "general"
+      ],
+      "requirements": {
+        "ar": "تخرج بين 2024–2026، معدل تراكمي 2.75 من 4 (3.75 من 5)، وآيلتس 6.0.",
+        "en": "Graduated between 2024-2026, GPA 2.75/4 (3.75/5), and IELTS 6.0."
+      },
+      "deadline": null,
+      "stipendOrSalary": {
+        "min": 15000,
+        "max": 20000,
+        "kind": "estimate"
+      },
+      "url": "https://www.pif.gov.sa/en/careers/graduate-development-program/",
+      "linkType": "program-page",
+      "sourceId": "S4",
+      "asOf": "2026-09-04",
+      "verified": false,
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": "Opened in Chrome (blocks plain scripted requests)."
+      }
+    },
+    {
+      "id": "tuwaiq-academy",
+      "name": {
+        "ar": "معسكرات أكاديمية طويق",
+        "en": "Tuwaiq Academy Bootcamps"
+      },
+      "provider": "أكاديمية طويق / Tuwaiq Academy",
+      "fields": [
+        "all"
+      ],
+      "requirements": {
+        "ar": "تسجيل مستمر؛ ليست وظيفة بل جسر تدريبي مكثف مدفوع المكافأة، ينتهي غالباً بربط توظيفي مع شركاء الأكاديمية.",
+        "en": "Rolling enrolment; not a job but an intensive, paid training bridge that often ends with a hiring link to partner companies."
+      },
+      "deadline": null,
+      "stipendOrSalary": {
+        "min": 3000,
+        "max": 5000,
+        "kind": "estimate"
+      },
+      "url": "https://tuwaiq.edu.sa/",
+      "linkType": "program-page",
+      "sourceId": "S2",
+      "asOf": "2026-09-05",
+      "verified": false,
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": "Opened in Chrome (blocks plain scripted requests)."
+      }
+    }
+  ],
+  "platforms": [
+    {
+      "id": "linkedin",
+      "name": {
+        "ar": "لينكدإن",
+        "en": "LinkedIn"
+      },
+      "url": "https://www.linkedin.com/jobs/",
+      "fields": [
+        "all"
+      ],
+      "goodFor": {
+        "ar": "المصدر الأول لوظائف القطاع الخاص؛ فعّل خاصية Open to Work.",
+        "en": "The primary source for private-sector jobs; turn on the 'Open to Work' feature."
+      },
+      "sourceId": "S7",
+      "asOf": "2026-09-04",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": ""
+      }
+    },
+    {
+      "id": "jadarat",
+      "name": {
+        "ar": "جدارات",
+        "en": "Jadarat"
+      },
+      "url": "https://jadarat.sa/",
+      "fields": [
+        "all"
+      ],
+      "goodFor": {
+        "ar": "وظائف الجهات والهيئات الحكومية.",
+        "en": "Government and authority jobs."
+      },
+      "sourceId": "S7",
+      "asOf": "2026-09-04",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": "Opened in Chrome (blocks plain scripted requests)."
+      },
+      "replacedLink": "https://www.jadarat.sa/"
+    },
+    {
+      "id": "sabbar",
+      "name": {
+        "ar": "صبّار",
+        "en": "Sabbar"
+      },
+      "url": "https://sabbar.com/",
+      "fields": [
+        "all"
+      ],
+      "goodFor": {
+        "ar": "قسم مخصص لحديثي التخرج بآلاف الشواغر.",
+        "en": "A section dedicated to fresh graduates with thousands of listings."
+      },
+      "sourceId": "S1",
+      "asOf": "2026-08-31",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": ""
+      }
+    },
+    {
+      "id": "bayt",
+      "name": {
+        "ar": "بيت.كوم",
+        "en": "Bayt.com"
+      },
+      "url": "https://www.bayt.com/en/saudi-arabia/",
+      "fields": [
+        "all"
+      ],
+      "goodFor": {
+        "ar": "شواغر واسعة في التقنية والتصنيع والعمليات.",
+        "en": "Broad listings across tech, manufacturing and operations."
+      },
+      "sourceId": "S7",
+      "asOf": "2026-09-04",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": null,
+        "status": 403,
+        "note": "Blocks automated checks (HTTP 403); open it in a browser."
+      }
+    },
+    {
+      "id": "taqat",
+      "name": {
+        "ar": "طاقات",
+        "en": "Taqat"
+      },
+      "url": "https://www.taqat.sa/",
+      "fields": [
+        "all"
+      ],
+      "goodFor": {
+        "ar": "بوابة تمهير وبرامج صندوق تنمية الموارد البشرية.",
+        "en": "Portal for Tamheer and HRDF programmes."
+      },
+      "sourceId": "S7",
+      "asOf": "2026-09-04",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": ""
+      }
+    },
+    {
+      "id": "glassdoor",
+      "name": {
+        "ar": "جلاسدور",
+        "en": "Glassdoor"
+      },
+      "url": "https://www.glassdoor.com/",
+      "fields": [
+        "all"
+      ],
+      "goodFor": {
+        "ar": "التحقق من الرواتب وتقييمات الموظفين قبل المقابلة.",
+        "en": "Checking salaries and employee reviews before an interview."
+      },
+      "sourceId": "S7",
+      "asOf": "2026-09-04",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": null,
+        "status": 403,
+        "note": "Blocks automated checks (HTTP 403); open it in a browser."
+      }
+    },
+    {
+      "id": "gulftalent",
+      "name": {
+        "ar": "جلف تالنت",
+        "en": "GulfTalent"
+      },
+      "url": "https://www.gulftalent.com/saudi-arabia/jobs",
+      "fields": [
+        "all"
+      ],
+      "goodFor": {
+        "ar": "يركّز على الأدوار الإدارية ومتوسطة الأقدمية، ويتابع شواغر شركات مثل MEPC وACWA Power وصافولا.",
+        "en": "Focuses on managerial and mid-seniority roles, and tracks vacancies at companies like MEPC, ACWA Power and Savola."
+      },
+      "sourceId": "S3",
+      "asOf": "2026-09-06",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": null,
+        "status": 403,
+        "note": "Blocks automated checks (HTTP 403); open it in a browser."
+      }
+    },
+    {
+      "id": "jsfirm",
+      "name": {
+        "ar": "جي إس فيرم (JSfirm)",
+        "en": "JSfirm"
+      },
+      "url": "https://www.jsfirm.com/",
+      "fields": [
+        "mechanical-aerospace"
+      ],
+      "goodFor": {
+        "ar": "منصة عالمية متخصصة في وظائف الطيران وحدها.",
+        "en": "A global platform specialised solely in aviation jobs."
+      },
+      "sourceId": "S1",
+      "asOf": "2026-08-31",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": ""
+      }
+    },
+    {
+      "id": "naukrigulf",
+      "name": {
+        "ar": "نوكري جلف",
+        "en": "Naukrigulf"
+      },
+      "url": "https://www.naukrigulf.com/",
+      "fields": [
+        "all"
+      ],
+      "goodFor": {
+        "ar": "شواغر يومية في التصنيع والتقنية والاتصالات بدول الخليج.",
+        "en": "Daily listings in manufacturing, tech and telecom across the Gulf."
+      },
+      "sourceId": "S3",
+      "asOf": "2026-09-06",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": true,
+        "status": 200,
+        "note": ""
+      }
+    },
+    {
+      "id": "indeed-saudi",
+      "name": {
+        "ar": "إنديد السعودية",
+        "en": "Indeed Saudi Arabia"
+      },
+      "url": "https://sa.indeed.com/",
+      "fields": [
+        "all"
+      ],
+      "goodFor": {
+        "ar": "يغطي الشركات المتوسطة الأكثر مرونة في التوظيف.",
+        "en": "Covers mid-sized companies that are more flexible in hiring."
+      },
+      "sourceId": "S2",
+      "asOf": "2026-09-05",
+      "linkCheck": {
+        "checkedOn": "2026-09-27",
+        "ok": null,
+        "status": 403,
+        "note": "Blocks automated checks (HTTP 403); open it in a browser."
+      }
+    }
+  ],
+  "cvPatterns": [
+    {
+      "id": "strongest-first",
+      "title": {
+        "ar": "الخبرة الأقوى أولاً، لا بالترتيب الزمني",
+        "en": "Strongest experience first, not chronological order"
+      },
+      "detail": {
+        "ar": "ضع أقوى وأكثر خبراتك صلة بالوظيفة المستهدفة في أعلى السيرة الذاتية، حتى لو لم تكن الأحدث زمنياً.",
+        "en": "Put your strongest, most relevant experience at the top of the CV, even if it isn't the most recent chronologically."
+      },
+      "sourceId": "S8"
+    },
+    {
+      "id": "add-numbers",
+      "title": {
+        "ar": "أضف أرقاماً لا مهاماً فقط",
+        "en": "Add numbers, not just tasks"
+      },
+      "detail": {
+        "ar": "استبدل الجمل الوصفية بأرقام: النسبة، الكمية، حجم الفريق أو عدد الوحدات — فالأرقام هي ما يميّز سيرة عن أخرى.",
+        "en": "Replace descriptive sentences with numbers: percentages, quantities, team size or unit counts - numbers are what differentiate one CV from another."
+      },
+      "sourceId": "S8"
+    },
+    {
+      "id": "relocation-line",
+      "title": {
+        "ar": "اكتب: الرياض / جدة، مستعد للانتقال",
+        "en": "Write: Riyadh / Jeddah, ready to relocate"
+      },
+      "detail": {
+        "ar": "استبدل عنوان مدينة بعيدة بعبارة توضح الاستعداد للانتقال إلى الرياض أو جدة، لأنها تزيل أكبر تحفظ لدى جهة التوظيف وتمنع الاستبعاد الآلي من بعض أنظمة الفرز.",
+        "en": "Replace a distant city address with a line stating readiness to relocate to Riyadh or Jeddah - it removes a major hiring hesitation and avoids automatic screening rejection in some systems."
+      },
+      "sourceId": "S8"
+    },
+    {
+      "id": "remove-off-track-certs",
+      "title": {
+        "ar": "احذف الشهادات الخارجة عن المسار",
+        "en": "Remove off-track certificates"
+      },
+      "detail": {
+        "ar": "احتفظ بالشهادات المرتبطة مباشرة بالمسار المستهدف، واحذف ما يشتّت رسالة السيرة الذاتية أو يوحي بعدم وضوح الاتجاه المهني.",
+        "en": "Keep certificates directly related to the target track, and remove ones that dilute the CV's message or suggest an unclear career direction."
+      },
+      "sourceId": "S8"
+    },
+    {
+      "id": "proactive-messaging",
+      "title": {
+        "ar": "لا تنتظر إعلان الشاغر",
+        "en": "Don't wait for a posting"
+      },
+      "detail": {
+        "ar": "خصّص عشر رسائل مباشرة أسبوعياً لمهندسي التوظيف أو المدراء على لينكدإن — كثير من الفرص لا تُعلن أصلاً وتصل عبر شبكة العلاقات.",
+        "en": "Dedicate ten direct messages a week to recruiters or hiring managers on LinkedIn - many opportunities are never announced and come through networking."
+      },
+      "sourceId": "S8"
+    },
+    {
+      "id": "tamheer-gosi-rule",
+      "title": {
+        "ar": "تمهير جسر جيد، لكن انتبه لشرط التأمينات",
+        "en": "Tamheer is a good bridge, but watch the GOSI rule"
+      },
+      "detail": {
+        "ar": "برنامج تمهير (هدف) مدخل جيد للتوظيف الدائم بمكافأة شهرية، لكن المسجَّلين في التأمينات الاجتماعية (GOSI) لا يمكنهم الانضمام حالياً — تحقق من الشرط الحالي على منصة طاقات أو هدف قبل اتخاذ أي قرار.",
+        "en": "The Tamheer (HRDF) programme is a good route into permanent employment with a monthly stipend, but people currently registered in GOSI cannot join - confirm the current rule on the Taqat or HRDF platform before deciding."
+      },
+      "sourceId": "S8"
+    }
+  ]
+}

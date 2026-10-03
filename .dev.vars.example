@@ -1,0 +1,16 @@
+# Copy to .dev.vars (gitignored) for local runs with a real API key.
+# Never commit .dev.vars. In production use: npx wrangler secret put <NAME>
+
+# Claude API key (server-side only; never sent to the browser)
+ANTHROPIC_API_KEY=
+
+# Cloudflare Turnstile. These are Cloudflare's official TEST keys (always pass).
+# Replace with real keys from the Cloudflare dashboard before going live.
+TURNSTILE_SITE_KEY=1x00000000000000000000AA
+TURNSTILE_SECRET_KEY=1x0000000000000000000000000000000AA
+
+# Random string used to hash IPs and browser IDs for the daily limits. Any long random value.
+HASH_SALT=change-me-to-a-long-random-string
+
+# Set to true to use fixture outputs instead of calling Claude.
+MOCK=false

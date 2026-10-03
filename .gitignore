@@ -1,0 +1,28 @@
+node_modules/
+dist/
+dist-ssr/
+.wrangler/
+coverage/
+test-results/
+playwright-report/
+blob-report/
+lighthouse/*.json
+*.log
+*.sqlite
+*.sqlite-*
+.DS_Store
+Thumbs.db
+
+# local-only lists (e.g. real names for the dataset personal-data scan)
+*.local.json
+
+# internal build log (mentions private notes and tooling); kept locally, not published
+PROGRESS.md
+
+# secrets - never commit
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+.env
+.env.*
+!.env.example

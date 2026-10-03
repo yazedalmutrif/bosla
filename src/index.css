@@ -1,0 +1,251 @@
+/* Two weights only (400 body, 600 emphasis): fewer font files = faster first paint on phones. */
+@import "@fontsource/ibm-plex-sans-arabic/arabic-400.css";
+@import "@fontsource/ibm-plex-sans-arabic/arabic-600.css";
+@import "@fontsource/ibm-plex-sans-arabic/latin-400.css";
+@import "@fontsource/ibm-plex-sans-arabic/latin-600.css";
+@import "tailwindcss";
+
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+/*
+ * Design tokens (ui-ux-pro-max: professional navy + calm verified green, minimal, WCAG AA).
+ * Text/background pairs are chosen for >= 4.5:1 contrast in both themes.
+ */
+:root {
+  --bg: #f7f6f2;
+  --bg-soft: #efede6;
+  --surface: #ffffff;
+  --surface-2: #f3f1eb;
+  --border: #e2ded4;
+  --border-strong: #cdc8bb;
+  --ink: #0f1a2e;
+  --muted: #4d5667;
+  --subtle: #5f6675;
+  --primary: #14305a;
+  --primary-hover: #0d2446;
+  --primary-fg: #ffffff;
+  --primary-soft: #e7edf6;
+  --primary-text: #1b3d70;
+  --accent: #0b6e5a;
+  --accent-soft: #e2f1ec;
+  --warn: #7f4d00;
+  --warn-soft: #fff3d6;
+  --warn-border: #eec067;
+  --danger: #a8261b;
+  --danger-soft: #fdeeec;
+  --gold: #a4833f;
+  --ring: #2f5da8;
+  --shadow: 0 1px 2px rgb(16 24 40 / 0.04), 0 12px 32px -16px rgb(16 24 40 / 0.18);
+  --shadow-lg: 0 2px 4px rgb(16 24 40 / 0.04), 0 24px 56px -24px rgb(16 24 40 / 0.28);
+}
+
+[data-theme="dark"] {
+  --bg: #0a0f1c;
+  --bg-soft: #0d1424;
+  --surface: #111a2d;
+  --surface-2: #16213a;
+  --border: #233050;
+  --border-strong: #33436a;
+  --ink: #e9edf5;
+  --muted: #a9b3c7;
+  --subtle: #8e99b0;
+  --primary: #c8d7ff;
+  --primary-hover: #b3c7fb;
+  --primary-fg: #0a1633;
+  --primary-soft: #18264a;
+  --primary-text: #b9ccff;
+  --accent: #4fd1ae;
+  --accent-soft: #0f2a26;
+  --warn: #f6c66b;
+  --warn-soft: #2a2210;
+  --warn-border: #6b5220;
+  --danger: #ff9c92;
+  --danger-soft: #2c1413;
+  --gold: #d2b476;
+  --ring: #8fb0ff;
+  --shadow: 0 1px 2px rgb(0 0 0 / 0.3), 0 12px 32px -16px rgb(0 0 0 / 0.6);
+  --shadow-lg: 0 2px 4px rgb(0 0 0 / 0.3), 0 24px 56px -24px rgb(0 0 0 / 0.7);
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-bg-soft: var(--bg-soft);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-line: var(--border);
+  --color-line-strong: var(--border-strong);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-subtle: var(--subtle);
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-primary-fg: var(--primary-fg);
+  --color-primary-soft: var(--primary-soft);
+  --color-primary-text: var(--primary-text);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-warn: var(--warn);
+  --color-warn-soft: var(--warn-soft);
+  --color-warn-line: var(--warn-border);
+  --color-danger: var(--danger);
+  --color-danger-soft: var(--danger-soft);
+  --color-gold: var(--gold);
+  --color-ring: var(--ring);
+  --shadow-card: var(--shadow);
+  --shadow-float: var(--shadow-lg);
+  --font-sans: "IBM Plex Sans Arabic", system-ui, -apple-system, "Segoe UI", Tahoma, Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --font-weight-medium: 600;
+}
+
+@layer base {
+  html {
+    background: var(--bg);
+    color: var(--ink);
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    line-height: 1.65;
+    min-height: 100dvh;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  html[lang="ar"] body {
+    line-height: 1.85;
+  }
+  /* Letter-spacing breaks Arabic joining: only tighten Latin headings. */
+  html[lang="en"] .tracking-display {
+    letter-spacing: -0.022em;
+  }
+  html[lang="ar"] [class*="tracking-"] {
+    letter-spacing: 0 !important;
+  }
+  ::selection {
+    background: var(--primary-soft);
+    color: var(--ink);
+  }
+  :focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 2px;
+    border-radius: 6px;
+  }
+  button,
+  [role="button"],
+  a,
+  summary,
+  label[for] {
+    cursor: pointer;
+  }
+  button:disabled {
+    cursor: not-allowed;
+  }
+}
+
+@layer components {
+  .container-page {
+    width: 100%;
+    max-width: 72rem;
+    margin-inline: auto;
+    padding-inline: 1.25rem;
+  }
+  @media (min-width: 640px) {
+    .container-page {
+      padding-inline: 2rem;
+    }
+  }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 1.25rem;
+    box-shadow: var(--shadow);
+  }
+  .hairline-grid {
+    background-image: linear-gradient(to right, var(--border) 1px, transparent 1px),
+      linear-gradient(to bottom, var(--border) 1px, transparent 1px);
+    background-size: 56px 56px;
+    mask-image: radial-gradient(ellipse 70% 60% at 50% 0%, #000 30%, transparent 75%);
+    opacity: 0.55;
+  }
+  .ph {
+    background: var(--warn-soft);
+    color: var(--warn);
+    border: 1px dashed var(--warn-border);
+    border-radius: 0.4rem;
+    padding: 0 0.35rem;
+    font-weight: 500;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+  }
+  .reveal {
+    opacity: 0;
+    transform: translateY(10px);
+    transition:
+      opacity 420ms cubic-bezier(0.2, 0.7, 0.2, 1),
+      transform 420ms cubic-bezier(0.2, 0.7, 0.2, 1);
+  }
+  .reveal.is-in {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 1ms !important;
+  }
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Print: only the document being printed. */
+@media print {
+  @page {
+    size: A4;
+    margin: 14mm 14mm;
+  }
+  html,
+  body {
+    background: #fff !important;
+    color: #000 !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .print-doc {
+    box-shadow: none !important;
+    border: 0 !important;
+    padding: 0 !important;
+  }
+  .ph {
+    background: #fff3c4 !important;
+    color: #000 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}
+.print-only {
+  display: none;
+}
+/* The prerendered Arabic landing page stays hidden on other pages / in English until React renders. */
+.no-prerender #root[data-prerendered] {
+  visibility: hidden;
+}
+.no-prerender #root[data-prerendered] {
+  visibility: hidden;
+}
